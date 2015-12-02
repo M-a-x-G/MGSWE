@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<language namespace="NewLanguage" uuid="f4aa25f0-e510-4232-b00d-f5a6a39c2ec9" version="0">
+<language namespace="de.fhb.RESTGen" uuid="f4aa25f0-e510-4232-b00d-f5a6a39c2ec9" version="0">
   <models>
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="languageModels" />
@@ -7,7 +7,7 @@
   </models>
   <accessoryModels />
   <generators>
-    <generator generatorUID="NewLanguage#1349512680527399910" uuid="96ae1701-05a4-4c23-834a-acb73593aae7">
+    <generator generatorUID="de.fhb.RESTGen#1349512680527399910" uuid="96ae1701-05a4-4c23-834a-acb73593aae7">
       <models>
         <modelRoot contentPath="${module}" type="default">
           <sourceRoot location="generator/template" />
@@ -17,13 +17,13 @@
       <usedLanguages>
         <usedLanguage>b401a680-8325-4110-8fd3-84331ff25bef(jetbrains.mps.lang.generator)</usedLanguage>
         <usedLanguage>d7706f63-9be2-479c-a3da-ae92af1e64d5(jetbrains.mps.lang.generator.generationContext)</usedLanguage>
-        <usedLanguage>f4aa25f0-e510-4232-b00d-f5a6a39c2ec9(NewLanguage)</usedLanguage>
+        <usedLanguage>f4aa25f0-e510-4232-b00d-f5a6a39c2ec9(de.fhb.RESTGen)</usedLanguage>
       </usedLanguages>
       <usedDevKits>
         <usedDevKit>fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)</usedDevKit>
       </usedDevKits>
       <languageVersions>
-        <language id="f4aa25f0-e510-4232-b00d-f5a6a39c2ec9" fqName="NewLanguage" version="-1" />
+        <language id="f4aa25f0-e510-4232-b00d-f5a6a39c2ec9" fqName="de.fhb.RESTGen" version="-1" />
         <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" fqName="jetbrains.mps.baseLanguage" version="1" />
         <language id="ed6d7656-532c-4bc2-81d1-af945aeb8280" fqName="jetbrains.mps.baseLanguage.blTypes" version="0" />
         <language id="fd392034-7849-419d-9071-12563d152375" fqName="jetbrains.mps.baseLanguage.closures" version="0" />

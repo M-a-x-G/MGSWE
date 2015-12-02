@@ -111,9 +111,13 @@ $RECYCLE.BIN/
 
 *.iws
 
-languages/source_gen
-languages/source_gen.caches
-languages/classes_gen
+languages/NewLanguage/generator/source_gen
+languages/NewLanguage/generator/source_gen.caches
+languages/NewLanguage/generator/classes_gen
+
+languages/NewLanguage/source_gen
+languages/NewLanguage/source_gen.caches
+languages/NewLanguage/classes_gen
 
 solutions/source_gen
 solutions/source_gen.caches
