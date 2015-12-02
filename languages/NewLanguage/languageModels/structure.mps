@@ -27,9 +27,13 @@
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
         <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
       </concept>
+      <concept id="1169127622168" name="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" flags="ig" index="PrWs8">
+        <reference id="1169127628841" name="intfc" index="PrY4T" />
+      </concept>
       <concept id="1071489090640" name="jetbrains.mps.lang.structure.structure.ConceptDeclaration" flags="ig" index="1TIwiD">
         <property id="1096454100552" name="rootable" index="19KtqR" />
         <reference id="1071489389519" name="extends" index="1TJDcQ" />
+        <child id="1169129564478" name="implements" index="PzmwI" />
       </concept>
       <concept id="1071489288299" name="jetbrains.mps.lang.structure.structure.PropertyDeclaration" flags="ig" index="1TJgyi">
         <reference id="1082985295845" name="dataType" index="AX2Wp" />
@@ -89,7 +93,7 @@
   </node>
   <node concept="AxPO7" id="2ez3KZG8AV5">
     <property role="TrG5h" value="ProjectType" />
-    <property role="3GE5qa" value="Skeleton" />
+    <property role="3GE5qa" value="Skeleton.enums" />
     <ref role="M4eZT" to="tpck:fKAOsGN" resolve="string" />
     <node concept="M4N5e" id="2ez3KZG8AV6" role="M5hS2">
       <property role="1uS6qv" value="spring" />
@@ -102,7 +106,7 @@
   </node>
   <node concept="AxPO7" id="2ez3KZG8AVd">
     <property role="TrG5h" value="SpringPackaging" />
-    <property role="3GE5qa" value="Skeleton" />
+    <property role="3GE5qa" value="Skeleton.enums" />
     <ref role="M4eZT" to="tpck:fKAOsGN" resolve="string" />
     <node concept="M4N5e" id="2ez3KZG8AVe" role="M5hS2">
       <property role="1uS6qv" value="jar" />
@@ -115,7 +119,7 @@
   </node>
   <node concept="AxPO7" id="2ez3KZG8AVk">
     <property role="TrG5h" value="JavaVersion" />
-    <property role="3GE5qa" value="Skeleton" />
+    <property role="3GE5qa" value="Skeleton.enums" />
     <ref role="M4eZT" to="tpck:fKAOsGN" resolve="string" />
     <node concept="M4N5e" id="2ez3KZG8AVl" role="M5hS2">
       <property role="1uS6qv" value="1.8" />
@@ -129,17 +133,17 @@
   <node concept="Az7Fb" id="2ez3KZG9rUS">
     <property role="TrG5h" value="AlphaChars" />
     <property role="FLfZY" value="([A-Za-z])" />
-    <property role="3GE5qa" value="Skeleton" />
+    <property role="3GE5qa" value="Skeleton.constrainedString" />
   </node>
   <node concept="Az7Fb" id="2ez3KZG9rVG">
     <property role="TrG5h" value="AlphaNumChars" />
     <property role="FLfZY" value="([A-Za-z0-9])" />
-    <property role="3GE5qa" value="Skeleton" />
+    <property role="3GE5qa" value="Skeleton.constrainedString" />
   </node>
   <node concept="Az7Fb" id="2ez3KZG9rWh">
     <property role="TrG5h" value="ProjectVersion" />
     <property role="FLfZY" value="([A-Za-z0-9.-])" />
-    <property role="3GE5qa" value="Skeleton" />
+    <property role="3GE5qa" value="Skeleton.constrainedString" />
   </node>
   <node concept="1TIwiD" id="2ez3KZG9ZcB">
     <property role="TrG5h" value="Dependency" />
@@ -172,9 +176,21 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="2ez3KZG8rAW" resolve="SpringSettings" />
     </node>
+    <node concept="1TJgyj" id="2ez3KZGcfci" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="dtos" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="2ez3KZGccEi" resolve="DTO" />
+    </node>
+    <node concept="1TJgyj" id="2ez3KZGcjPd" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="requests" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="2ez3KZGcjJC" resolve="Request" />
+    </node>
   </node>
   <node concept="AxPO7" id="2ez3KZGbKPB">
-    <property role="3GE5qa" value="Skeleton" />
+    <property role="3GE5qa" value="Skeleton.enums" />
     <property role="TrG5h" value="DependencyType" />
     <ref role="M4eZT" to="tpck:fKAOsGN" resolve="string" />
     <node concept="M4N5e" id="2ez3KZGbKPC" role="M5hS2">
@@ -188,6 +204,111 @@
     <node concept="M4N5e" id="2ez3KZGbKQ9" role="M5hS2">
       <property role="1uS6qo" value="providedRuntime" />
       <property role="1uS6qv" value="providedRuntime" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2ez3KZGccEi">
+    <property role="3GE5qa" value="Skeleton" />
+    <property role="TrG5h" value="DTO" />
+    <property role="34LRSv" value="dto" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="2ez3KZGccHd" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="fields" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="2ez3KZGcrsT" resolve="DTOField" />
+    </node>
+    <node concept="PrWs8" id="2ez3KZGcfas" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2ez3KZGcjJC">
+    <property role="3GE5qa" value="Skeleton" />
+    <property role="TrG5h" value="Request" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="2ez3KZGcjNC" role="1TKVEl">
+      <property role="TrG5h" value="type" />
+      <ref role="AX2Wp" node="2ez3KZGcjK4" resolve="RequestType" />
+    </node>
+    <node concept="1TJgyj" id="2ez3KZGcjOn" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="request" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="2ez3KZGccEi" resolve="DTO" />
+    </node>
+    <node concept="1TJgyj" id="2ez3KZGcjOq" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="response" />
+      <ref role="20lvS9" node="2ez3KZGccEi" resolve="DTO" />
+    </node>
+  </node>
+  <node concept="AxPO7" id="2ez3KZGcjK4">
+    <property role="3GE5qa" value="Skeleton.enums" />
+    <property role="TrG5h" value="RequestType" />
+    <ref role="M4eZT" to="tpck:fKAOsGN" resolve="string" />
+    <node concept="M4N5e" id="2ez3KZGcjK5" role="M5hS2">
+      <property role="1uS6qv" value="get" />
+      <property role="1uS6qo" value="get" />
+    </node>
+    <node concept="M4N5e" id="2ez3KZGcjKx" role="M5hS2">
+      <property role="1uS6qo" value="post" />
+      <property role="1uS6qv" value="post" />
+    </node>
+    <node concept="M4N5e" id="2ez3KZGcjKA" role="M5hS2">
+      <property role="1uS6qo" value="put" />
+      <property role="1uS6qv" value="put" />
+    </node>
+    <node concept="M4N5e" id="2ez3KZGcjKH" role="M5hS2">
+      <property role="1uS6qo" value="delete" />
+      <property role="1uS6qv" value="delete" />
+    </node>
+    <node concept="M4N5e" id="2ez3KZGcjKQ" role="M5hS2">
+      <property role="1uS6qo" value="head" />
+      <property role="1uS6qv" value="head" />
+    </node>
+    <node concept="M4N5e" id="2ez3KZGcjMK" role="M5hS2">
+      <property role="1uS6qo" value="options" />
+      <property role="1uS6qv" value="options" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2ez3KZGcrsT">
+    <property role="3GE5qa" value="Skeleton" />
+    <property role="TrG5h" value="DTOField" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="2ez3KZGcx_o" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+    <node concept="1TJgyi" id="2ez3KZGcBm9" role="1TKVEl">
+      <property role="TrG5h" value="type" />
+      <ref role="AX2Wp" node="2ez3KZGcBkZ" resolve="Datatypes" />
+    </node>
+  </node>
+  <node concept="AxPO7" id="2ez3KZGcBkZ">
+    <property role="3GE5qa" value="Skeleton.enums" />
+    <property role="TrG5h" value="Datatypes" />
+    <ref role="M4eZT" to="tpck:fKAOsGN" resolve="string" />
+    <node concept="M4N5e" id="2ez3KZGcBl0" role="M5hS2">
+      <property role="1uS6qv" value="String" />
+      <property role="1uS6qo" value="String" />
+    </node>
+    <node concept="M4N5e" id="2ez3KZGcBls" role="M5hS2">
+      <property role="1uS6qo" value="Integer" />
+      <property role="1uS6qv" value="int" />
+    </node>
+    <node concept="M4N5e" id="2ez3KZGcBlx" role="M5hS2">
+      <property role="1uS6qo" value="Double" />
+      <property role="1uS6qv" value="double" />
+    </node>
+    <node concept="M4N5e" id="2ez3KZGcBlC" role="M5hS2">
+      <property role="1uS6qo" value="Float" />
+      <property role="1uS6qv" value="float" />
+    </node>
+    <node concept="M4N5e" id="2ez3KZGcBlL" role="M5hS2">
+      <property role="1uS6qv" value="short" />
+      <property role="1uS6qo" value="Short" />
+    </node>
+    <node concept="M4N5e" id="2ez3KZGcBlW" role="M5hS2">
+      <property role="1uS6qo" value="Boolean" />
+      <property role="1uS6qv" value="bool" />
     </node>
   </node>
 </model>
