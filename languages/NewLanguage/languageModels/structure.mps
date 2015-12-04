@@ -27,6 +27,9 @@
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
         <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
       </concept>
+      <concept id="1169125989551" name="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration" flags="ig" index="PlHQZ">
+        <child id="1169127546356" name="extends" index="PrDN$" />
+      </concept>
       <concept id="1169127622168" name="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" flags="ig" index="PrWs8">
         <reference id="1169127628841" name="intfc" index="PrY4T" />
       </concept>
@@ -82,6 +85,14 @@
     </node>
     <node concept="1TJgyi" id="2ez3KZG8ATN" role="1TKVEl">
       <property role="TrG5h" value="version" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="3n0qbxPnfuW" role="1TKVEl">
+      <property role="TrG5h" value="groupID" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="3n0qbxPnfvb" role="1TKVEl">
+      <property role="TrG5h" value="artifactID" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
     <node concept="1TJgyj" id="2ez3KZG9Zej" role="1TKVEi">
@@ -215,7 +226,7 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="fields" />
       <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" node="2ez3KZGcrsT" resolve="DTOField" />
+      <ref role="20lvS9" node="3n0qbxPn4xb" resolve="IDTOField" />
     </node>
     <node concept="PrWs8" id="2ez3KZGcfas" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
@@ -229,16 +240,20 @@
       <property role="TrG5h" value="type" />
       <ref role="AX2Wp" node="2ez3KZGcjK4" resolve="RequestType" />
     </node>
+    <node concept="1TJgyi" id="2ez3KZGcHpC" role="1TKVEl">
+      <property role="TrG5h" value="endpoint" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
     <node concept="1TJgyj" id="2ez3KZGcjOn" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="request" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="2ez3KZGccEi" resolve="DTO" />
+      <ref role="20lvS9" node="1C_i6$JUV0O" resolve="DTOReference" />
     </node>
     <node concept="1TJgyj" id="2ez3KZGcjOq" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="response" />
-      <ref role="20lvS9" node="2ez3KZGccEi" resolve="DTO" />
+      <ref role="20lvS9" node="1C_i6$JUV0O" resolve="DTOReference" />
     </node>
   </node>
   <node concept="AxPO7" id="2ez3KZGcjK4">
@@ -270,21 +285,9 @@
       <property role="1uS6qv" value="options" />
     </node>
   </node>
-  <node concept="1TIwiD" id="2ez3KZGcrsT">
-    <property role="3GE5qa" value="Skeleton" />
-    <property role="TrG5h" value="DTOField" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="PrWs8" id="2ez3KZGcx_o" role="PzmwI">
-      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
-    </node>
-    <node concept="1TJgyi" id="2ez3KZGcBm9" role="1TKVEl">
-      <property role="TrG5h" value="type" />
-      <ref role="AX2Wp" node="2ez3KZGcBkZ" resolve="Datatypes" />
-    </node>
-  </node>
   <node concept="AxPO7" id="2ez3KZGcBkZ">
     <property role="3GE5qa" value="Skeleton.enums" />
-    <property role="TrG5h" value="Datatypes" />
+    <property role="TrG5h" value="PrimitiveDatatypes" />
     <ref role="M4eZT" to="tpck:fKAOsGN" resolve="string" />
     <node concept="M4N5e" id="2ez3KZGcBl0" role="M5hS2">
       <property role="1uS6qv" value="String" />
@@ -309,6 +312,36 @@
     <node concept="M4N5e" id="2ez3KZGcBlW" role="M5hS2">
       <property role="1uS6qo" value="Boolean" />
       <property role="1uS6qv" value="bool" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3n0qbxPn36Q">
+    <property role="3GE5qa" value="Skeleton" />
+    <property role="TrG5h" value="PrimitiveField" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="3n0qbxPn3mQ" role="1TKVEl">
+      <property role="TrG5h" value="type" />
+      <ref role="AX2Wp" node="2ez3KZGcBkZ" resolve="PrimitiveDatatypes" />
+    </node>
+    <node concept="PrWs8" id="3n0qbxPn4Qe" role="PzmwI">
+      <ref role="PrY4T" node="3n0qbxPn4xb" resolve="IDTOField" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="3n0qbxPn4xb">
+    <property role="3GE5qa" value="Skeleton" />
+    <property role="TrG5h" value="IDTOField" />
+    <node concept="PrWs8" id="3n0qbxPn9wY" role="PrDN$">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1C_i6$JUV0O">
+    <property role="3GE5qa" value="Skeleton" />
+    <property role="TrG5h" value="DTOReference" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="1C_i6$JVdXb" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="dto" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="2ez3KZGccEi" resolve="DTO" />
     </node>
   </node>
 </model>
