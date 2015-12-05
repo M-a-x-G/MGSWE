@@ -23,12 +23,10 @@
       </concept>
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="4628067390765907488" name="conceptShortDescription" index="R4oN_" />
+        <property id="4628067390765956802" name="abstract" index="R5$K7" />
         <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
         <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
-      </concept>
-      <concept id="1169125989551" name="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration" flags="ig" index="PlHQZ">
-        <child id="1169127546356" name="extends" index="PrDN$" />
       </concept>
       <concept id="1169127622168" name="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" flags="ig" index="PrWs8">
         <reference id="1169127628841" name="intfc" index="PrY4T" />
@@ -65,7 +63,7 @@
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="2ez3KZG8ASC" role="1TKVEl">
       <property role="TrG5h" value="host" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+      <ref role="AX2Wp" node="1C_i6$JVx08" resolve="Url" />
     </node>
     <node concept="1TJgyi" id="2ez3KZG8ASK" role="1TKVEl">
       <property role="TrG5h" value="description" />
@@ -85,15 +83,15 @@
     </node>
     <node concept="1TJgyi" id="2ez3KZG8ATN" role="1TKVEl">
       <property role="TrG5h" value="version" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+      <ref role="AX2Wp" node="2ez3KZG9rWh" resolve="ProjectVersion" />
     </node>
     <node concept="1TJgyi" id="3n0qbxPnfuW" role="1TKVEl">
       <property role="TrG5h" value="groupID" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+      <ref role="AX2Wp" node="1C_i6$JVx96" resolve="GroupID" />
     </node>
     <node concept="1TJgyi" id="3n0qbxPnfvb" role="1TKVEl">
       <property role="TrG5h" value="artifactID" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+      <ref role="AX2Wp" node="1C_i6$JVx9_" resolve="ArtifactID" />
     </node>
     <node concept="1TJgyj" id="2ez3KZG9Zej" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -153,7 +151,7 @@
   </node>
   <node concept="Az7Fb" id="2ez3KZG9rWh">
     <property role="TrG5h" value="ProjectVersion" />
-    <property role="FLfZY" value="([A-Za-z0-9.-])" />
+    <property role="FLfZY" value="^(0|[1-9][0-9]*)(\\.(0|[1-9][0-9]*))*([\\.\\-][a-zA-Z]+[\\-0-9]*)*$" />
     <property role="3GE5qa" value="Skeleton.constrainedString" />
   </node>
   <node concept="1TIwiD" id="2ez3KZG9ZcB">
@@ -166,15 +164,15 @@
     </node>
     <node concept="1TJgyi" id="2ez3KZGbKQj" role="1TKVEl">
       <property role="TrG5h" value="groupID" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+      <ref role="AX2Wp" node="1C_i6$JVx96" resolve="GroupID" />
     </node>
     <node concept="1TJgyi" id="2ez3KZGbKQo" role="1TKVEl">
       <property role="TrG5h" value="artifactID" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+      <ref role="AX2Wp" node="1C_i6$JVx9_" resolve="ArtifactID" />
     </node>
     <node concept="1TJgyi" id="2ez3KZGbKQv" role="1TKVEl">
       <property role="TrG5h" value="version" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+      <ref role="AX2Wp" node="2ez3KZG9rWh" resolve="ProjectVersion" />
     </node>
   </node>
   <node concept="1TIwiD" id="2ez3KZGbKtD">
@@ -225,8 +223,8 @@
     <node concept="1TJgyj" id="2ez3KZGccHd" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="fields" />
-      <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" node="3n0qbxPn4xb" resolve="IDTOField" />
+      <property role="20lbJX" value="1..n" />
+      <ref role="20lvS9" node="1C_i6$JV$hB" resolve="DTOField" />
     </node>
     <node concept="PrWs8" id="2ez3KZGcfas" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
@@ -242,7 +240,7 @@
     </node>
     <node concept="1TJgyi" id="2ez3KZGcHpC" role="1TKVEl">
       <property role="TrG5h" value="endpoint" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+      <ref role="AX2Wp" node="rvPYZpgq2O" resolve="EndpointPath" />
     </node>
     <node concept="1TJgyj" id="2ez3KZGcjOn" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -287,7 +285,7 @@
   </node>
   <node concept="AxPO7" id="2ez3KZGcBkZ">
     <property role="3GE5qa" value="Skeleton.enums" />
-    <property role="TrG5h" value="PrimitiveDatatypes" />
+    <property role="TrG5h" value="PrimitiveDatatype" />
     <ref role="M4eZT" to="tpck:fKAOsGN" resolve="string" />
     <node concept="M4N5e" id="2ez3KZGcBl0" role="M5hS2">
       <property role="1uS6qv" value="String" />
@@ -317,20 +315,10 @@
   <node concept="1TIwiD" id="3n0qbxPn36Q">
     <property role="3GE5qa" value="Skeleton" />
     <property role="TrG5h" value="PrimitiveField" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <ref role="1TJDcQ" node="1C_i6$JV$hB" resolve="DTOField" />
     <node concept="1TJgyi" id="3n0qbxPn3mQ" role="1TKVEl">
       <property role="TrG5h" value="type" />
-      <ref role="AX2Wp" node="2ez3KZGcBkZ" resolve="PrimitiveDatatypes" />
-    </node>
-    <node concept="PrWs8" id="3n0qbxPn4Qe" role="PzmwI">
-      <ref role="PrY4T" node="3n0qbxPn4xb" resolve="IDTOField" />
-    </node>
-  </node>
-  <node concept="PlHQZ" id="3n0qbxPn4xb">
-    <property role="3GE5qa" value="Skeleton" />
-    <property role="TrG5h" value="IDTOField" />
-    <node concept="PrWs8" id="3n0qbxPn9wY" role="PrDN$">
-      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+      <ref role="AX2Wp" node="2ez3KZGcBkZ" resolve="PrimitiveDatatype" />
     </node>
   </node>
   <node concept="1TIwiD" id="1C_i6$JUV0O">
@@ -343,6 +331,56 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="2ez3KZGccEi" resolve="DTO" />
     </node>
+  </node>
+  <node concept="Az7Fb" id="1C_i6$JVwSw">
+    <property role="3GE5qa" value="Skeleton.constrainedString" />
+    <property role="TrG5h" value="JavaClassName" />
+    <property role="FLfZY" value="^[A-Z][a-z0-9]*([A-Z][a-z0-9]*)*$" />
+  </node>
+  <node concept="Az7Fb" id="1C_i6$JVwW2">
+    <property role="3GE5qa" value="Skeleton.constrainedString" />
+    <property role="TrG5h" value="PackageStructure" />
+    <property role="FLfZY" value="^[a-z][a-z0-9]*(\\.[a-z][a-z0-9]*)*$" />
+  </node>
+  <node concept="Az7Fb" id="1C_i6$JVwXz">
+    <property role="3GE5qa" value="Skeleton.constrainedString" />
+    <property role="TrG5h" value="JavaVariable" />
+    <property role="FLfZY" value="^[a-z][a-z0-9]*([A-Z][a-z0-9]*)*$" />
+  </node>
+  <node concept="Az7Fb" id="1C_i6$JVx08">
+    <property role="3GE5qa" value="Skeleton.constrainedString" />
+    <property role="TrG5h" value="Url" />
+    <property role="FLfZY" value="^([A-Za-z][A-Za-z0-9+\\-.]*):(?:(//)(?:((?:[A-Za-z0-9\\-._~!$&amp;'()*+,;=:]|%[0-9A-Fa-f]{2})*)@)?((?:\\[(?:(?:(?:(?:[0-9A-Fa-f]{1,4}:){6}|::(?:[0-9A-Fa-f]{1,4}:){5}|(?:[0-9A-Fa-f]{1,4})?::(?:[0-9A-Fa-f]{1,4}:){4}|(?:(?:[0-9A-Fa-f]{1,4}:){0,1}[0-9A-Fa-f]{1,4})?::(?:[0-9A-Fa-f]{1,4}:){3}|(?:(?:[0-9A-Fa-f]{1,4}:){0,2}[0-9A-Fa-f]{1,4})?::(?:[0-9A-Fa-f]{1,4}:){2}|(?:(?:[0-9A-Fa-f]{1,4}:){0,3}[0-9A-Fa-f]{1,4})?::[0-9A-Fa-f]{1,4}:|(?:(?:[0-9A-Fa-f]{1,4}:){0,4}[0-9A-Fa-f]{1,4})?::)(?:[0-9A-Fa-f]{1,4}:[0-9A-Fa-f]{1,4}|(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?))|(?:(?:[0-9A-Fa-f]{1,4}:){0,5}[0-9A-Fa-f]{1,4})?::[0-9A-Fa-f]{1,4}|(?:(?:[0-9A-Fa-f]{1,4}:){0,6}[0-9A-Fa-f]{1,4})?::)|[Vv][0-9A-Fa-f]+\\.[A-Za-z0-9\\-._~!$&amp;'()*+,;=:]+)\\]|(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)|(?:[A-Za-z0-9\\-._~!$&amp;'()*+,;=]|%[0-9A-Fa-f]{2})*))(?::([0-9]*))?((?:/(?:[A-Za-z0-9\\-._~!$&amp;'()*+,;=:@]|%[0-9A-Fa-f]{2})*)*)|/((?:(?:[A-Za-z0-9\\-._~!$&amp;'()*+,;=:@]|%[0-9A-Fa-f]{2})+(?:/(?:[A-Za-z0-9\\-._~!$&amp;'()*+,;=:@]|%[0-9A-Fa-f]{2})*)*)?)|((?:[A-Za-z0-9\\-._~!$&amp;'()*+,;=:@]|%[0-9A-Fa-f]{2})+(?:/(?:[A-Za-z0-9\\-._~!$&amp;'()*+,;=:@]|%[0-9A-Fa-f]{2})*)*)|)(?:\\?((?:[A-Za-z0-9\\-._~!$&amp;'()*+,;=:@/?]|%[0-9A-Fa-f]{2})*))?(?:\\#((?:[A-Za-z0-9\\-._~!$&amp;'()*+,;=:@/?]|%[0-9A-Fa-f]{2})*))?$" />
+  </node>
+  <node concept="Az7Fb" id="1C_i6$JVx3N">
+    <property role="3GE5qa" value="Skeleton.constrainedString" />
+    <property role="TrG5h" value="FileName" />
+    <property role="FLfZY" value="^[\\w,\\s-]+\\.[A-Za-z]+$" />
+  </node>
+  <node concept="Az7Fb" id="1C_i6$JVx96">
+    <property role="3GE5qa" value="Skeleton.constrainedString" />
+    <property role="TrG5h" value="GroupID" />
+    <property role="FLfZY" value="^[a-z][a-z0-9]*(\\.[a-z][a-z0-9]*)*$" />
+  </node>
+  <node concept="Az7Fb" id="1C_i6$JVx9_">
+    <property role="3GE5qa" value="Skeleton.constrainedString" />
+    <property role="TrG5h" value="ArtifactID" />
+    <property role="FLfZY" value="^[a-z][a-z0-9]*(\\-[a-z][a-z0-9]*)*$" />
+  </node>
+  <node concept="1TIwiD" id="1C_i6$JV$hB">
+    <property role="3GE5qa" value="Skeleton" />
+    <property role="TrG5h" value="DTOField" />
+    <property role="R5$K7" value="true" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="1C_i6$JV$i6" role="1TKVEl">
+      <property role="TrG5h" value="name" />
+      <ref role="AX2Wp" node="1C_i6$JVwXz" resolve="JavaVariable" />
+    </node>
+  </node>
+  <node concept="Az7Fb" id="rvPYZpgq2O">
+    <property role="3GE5qa" value="Skeleton.constrainedString" />
+    <property role="TrG5h" value="EndpointPath" />
+    <property role="FLfZY" value="^(\\/|\\/\\/)[\\w\\-]+(\\/?[\\w\\-]+)*$" />
   </node>
 </model>
 
