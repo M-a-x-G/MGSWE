@@ -7,7 +7,6 @@
   </languages>
   <imports>
     <import index="38xb" ref="r:f0eb351a-c060-432e-9f71-bfab75273570(de.fhb.RESTGen.structure)" implicit="true" />
-    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="e2lb" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" implicit="true" />
   </imports>
   <registry>
@@ -145,8 +144,8 @@
             <node concept="1YBJjd" id="3n0qbxPnqrt" role="2Oq$k0">
               <ref role="1YBMHb" node="3n0qbxPnq5n" resolve="dto" />
             </node>
-            <node concept="3TrcHB" id="3n0qbxPnrgI" role="2OqNvi">
-              <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+            <node concept="3TrcHB" id="6s_9$vOqtxQ" role="2OqNvi">
+              <ref role="3TsBF5" to="38xb:6s_9$vOqg9Q" resolve="name" />
             </node>
           </node>
         </node>
@@ -205,8 +204,8 @@
                         <node concept="1YBJjd" id="3n0qbxPnwiI" role="2Oq$k0">
                           <ref role="1YBMHb" node="3n0qbxPnq5n" resolve="dto" />
                         </node>
-                        <node concept="3TrcHB" id="3n0qbxPnwy$" role="2OqNvi">
-                          <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                        <node concept="3TrcHB" id="6s_9$vOqtFw" role="2OqNvi">
+                          <ref role="3TsBF5" to="38xb:6s_9$vOqg9Q" resolve="name" />
                         </node>
                       </node>
                       <node concept="liA8E" id="3n0qbxPnxAh" role="2OqNvi">
@@ -215,8 +214,8 @@
                           <node concept="37vLTw" id="3n0qbxPnxDU" role="2Oq$k0">
                             <ref role="3cqZAo" node="3n0qbxPnwfP" resolve="it" />
                           </node>
-                          <node concept="3TrcHB" id="3n0qbxPnxWx" role="2OqNvi">
-                            <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                          <node concept="3TrcHB" id="6s_9$vOqxJF" role="2OqNvi">
+                            <ref role="3TsBF5" to="38xb:6s_9$vOqg9Q" resolve="name" />
                           </node>
                         </node>
                       </node>
