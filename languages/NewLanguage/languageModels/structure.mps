@@ -373,6 +373,11 @@
       <property role="TrG5h" value="name" />
       <ref role="AX2Wp" node="1C_i6$JVwXz" resolve="JavaVariable" />
     </node>
+    <node concept="1TJgyj" id="7DgqHcMcThp" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="pf" />
+      <ref role="20lvS9" node="3n0qbxPn36Q" resolve="PrimitiveField" />
+    </node>
   </node>
   <node concept="Az7Fb" id="rvPYZpgq2O">
     <property role="3GE5qa" value="Skeleton.constrainedString" />
