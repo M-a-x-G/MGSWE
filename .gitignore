@@ -122,3 +122,6 @@ languages/NewLanguage/classes_gen
 solutions/source_gen
 solutions/source_gen.caches
 solutions/classes_gen
+
+# MPS workspace settings
+.mps/workspace.xml
