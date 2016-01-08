@@ -123,7 +123,7 @@ solutions/source_gen
 solutions/source_gen.caches
 solutions/classes_gen
 
-### MetaProgrammingSystem template
+# MetaProgrammingSystem template
 workspace.xml
 junitvmwatcher*.properties
 build.properties
@@ -140,3 +140,6 @@ test_gen
 test_gen.caches
 TEST-*.xml
 junit*.properties
+# MPS workspace settings
+.mps/workspace.xml
+
