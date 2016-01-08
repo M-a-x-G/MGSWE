@@ -19,9 +19,5 @@ Install [MPS](https://www.jetbrains.com/mps/download) first. After the installat
 ```
 
 
-## Contributing
-Maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code.
-
-
 ## License
-[Apache 2.0](https://github.com/M-a-x-G/MGSWE/blob/master/LICENSE)
+[MIT](https://github.com/M-a-x-G/MGSWE/blob/master/LICENSE)
