@@ -7,12 +7,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e35e9b75-95e8-43d8-a155-ec5762a04078" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/NewLanguage/NewLanguage.mpl" afterPath="$PROJECT_DIR$/languages/NewLanguage/NewLanguage.mpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/TestSolution/models/TestSolution/Run.mps" afterPath="$PROJECT_DIR$/solutions/TestSolution/models/TestSolution/Run.mps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/NewLanguage/languageModels/constraints.mps" afterPath="$PROJECT_DIR$/languages/NewLanguage/languageModels/constraints.mps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/TestSolution/source_gen.caches/TestSolution/Run/dependencies" afterPath="$PROJECT_DIR$/solutions/TestSolution/source_gen.caches/TestSolution/Run/dependencies" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/NewLanguage/languageModels/editor.mps" afterPath="$PROJECT_DIR$/languages/NewLanguage/languageModels/editor.mps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/TestSolution/source_gen.caches/TestSolution/Run/generated" afterPath="$PROJECT_DIR$/solutions/TestSolution/source_gen.caches/TestSolution/Run/generated" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/NewLanguage/generator/template/main@generator.mps" afterPath="$PROJECT_DIR$/languages/NewLanguage/generator/template/main@generator.mps" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/NewLanguage/languageModels/structure.mps" afterPath="$PROJECT_DIR$/languages/NewLanguage/languageModels/structure.mps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/NewLanguage/languageModels/typesystem.mps" afterPath="$PROJECT_DIR$/languages/NewLanguage/languageModels/typesystem.mps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/NewLanguage/languageModels/textGen.mps" afterPath="$PROJECT_DIR$/languages/NewLanguage/languageModels/textGen.mps" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.mps/workspace.xml" afterPath="$PROJECT_DIR$/.mps/workspace.xml" />
     </list>
     <ignored path="RESTGen.iws" />
@@ -30,7 +32,7 @@
       <list>
         <TabState>
           <option name="title" value="Console" />
-          <option name="history" value="kaurqQAABAAHKA8xRXe1i0SDqJMh1UqzYPgAABhUZW1wTW9kZWxfMjEyNzEzOTMyNjI4MDIXSAMWhMufSU87m5utnw3vvsMAAC5UZW1wTW9kdWxlMDMxNjg0Y2ItOWY0OS00ZjNiLTliOWItYWQ5ZjBkZWZiZWMz/////6urq6taWlpaAALOq1GVJepPIpuSEDuVyowMAAAXamV0YnJhaW5zLm1wcy5sYW5nLmNvcmUAAQAAARA5bqqkAAANSU5hbWVkQ29uY2VwdAASAAEAAAEQOW7AQQAABG5hbWUAAAAA3hrYbW5QSgKzBtTRf2TDdQAAGmpldGJyYWlucy5tcHMuY29uc29sZS5iYXNlAAMV+zQFH3JaLAAAC0NvbnNvbGVSb290ABIAAAAAAAIV+zQFH3JbrwAAB2hpc3RvcnkAFfs0BR9yW7EAAA1jb21tYW5kSG9sZGVyAATicWCstEhLAAANQ29tbWFuZEhvbGRlcgASAAAAAAAACoNfKMGqAr4AAAdIaXN0b3J5ABIAAAAAAAClpaWlAAXeGthtblBKArMG1NF/ZMN1AQAAAAX/////8maR0g3vTAauxiy5DErwpAAAHWpldGJyYWlucy5tcHMuY29uc29sZS5zY3JpcHRz/////xqFVMTrhEO6jDRvDZDG51oAAB9qZXRicmFpbnMubXBzLmNvbnNvbGUuYmxDb21tYW5k/////6Xk3lNGo0TaqrNo/fHDTtAAACFqZXRicmFpbnMubXBzLmNvbnNvbGUuaWRlQ29tbWFuZHP/////mVpzlH92S4upKcU0SHCBBgAAJmpldGJyYWlucy5tcHMuY29uc29sZS5pbnRlcm5hbENvbW1hbmRz/////wAAAAEXSPvCXdJdpEg6ixlwko4bYtcAACRqZXRicmFpbnMubXBzLmRldmtpdC5nZW5lcmFsLXB1cnBvc2UAAAAFByg1mx0rd8RG35vysly+oyJUAAAkamV0YnJhaW5zLm1wcy5jb25zb2xlLmJhc2Uuc3RydWN0dXJlcP////8HKOcS81NcPEKIrc6HyValL/sAACdqZXRicmFpbnMubXBzLmNvbnNvbGUuc2NyaXB0cy5zdHJ1Y3R1cmVw/////wcok1ug7nKRTKqoB9duj8aTkQAAKWpldGJyYWlucy5tcHMuY29uc29sZS5ibENvbW1hbmQuc3RydWN0dXJlcP////8HKBNaYG8DdkxcmrhAMPBRoGIAACtqZXRicmFpbnMubXBzLmNvbnNvbGUuaWRlQ29tbWFuZHMuc3RydWN0dXJlcP////8HKJBEUgapc0wdt2Aw5cd7dJcAADBqZXRicmFpbnMubXBzLmNvbnNvbGUuaW50ZXJuYWxDb21tYW5kcy5zdHJ1Y3R1cmVw/////7q6uroAAAABAAEYZyUmR/RhVNj//3sAAAAAAAAAAAACAAMYZyUmR/RhVQ4AAHsAAAAAAAAAAAAAfQACGGclJkf0YVUPAAF7AAEAAAEAAAAJAAAAAAAAAAB9fQ==" />
+          <option name="history" value="kaurqQAABAAHKOgQ7xlQfUlWkh5YcvUSdMIAABdUZW1wTW9kZWxfNDEwMjAxMzk5ODM5MxdIBOIX/8KURvSlJSxulCrhkQAALlRlbXBNb2R1bGUwNGUyMTdmZi1jMjk0LTQ2ZjQtYTUyNS0yYzZlOTQyYWUxOTH/////q6urq1paWloAAs6rUZUl6k8im5IQO5XKjAwAABdqZXRicmFpbnMubXBzLmxhbmcuY29yZQABAAABEDluqqQAAA1JTmFtZWRDb25jZXB0ABIAAQAAARA5bsBBAAAEbmFtZQAAAADeGthtblBKArMG1NF/ZMN1AAAaamV0YnJhaW5zLm1wcy5jb25zb2xlLmJhc2UAAxX7NAUfclosAAALQ29uc29sZVJvb3QAEgAAAAAAAhX7NAUfcluvAAAHaGlzdG9yeQAV+zQFH3JbsQAADWNvbW1hbmRIb2xkZXIABOJxYKy0SEsAAA1Db21tYW5kSG9sZGVyABIAAAAAAAAKg18owaoCvgAAB0hpc3RvcnkAEgAAAAAAAKWlpaUABd4a2G1uUEoCswbU0X9kw3UBAAAABf/////yZpHSDe9MBq7GLLkMSvCkAAAdamV0YnJhaW5zLm1wcy5jb25zb2xlLnNjcmlwdHP/////GoVUxOuEQ7qMNG8NkMbnWgAAH2pldGJyYWlucy5tcHMuY29uc29sZS5ibENvbW1hbmT/////peTeU0ajRNqqs2j98cNO0AAAIWpldGJyYWlucy5tcHMuY29uc29sZS5pZGVDb21tYW5kc/////+ZWnOUf3ZLi6kpxTRIcIEGAAAmamV0YnJhaW5zLm1wcy5jb25zb2xlLmludGVybmFsQ29tbWFuZHP/////AAAAARdI+8Jd0l2kSDqLGXCSjhti1wAAJGpldGJyYWlucy5tcHMuZGV2a2l0LmdlbmVyYWwtcHVycG9zZQAAAAUHKDWbHSt3xEbfm/KyXL6jIlQAACRqZXRicmFpbnMubXBzLmNvbnNvbGUuYmFzZS5zdHJ1Y3R1cmVw/////wco5xLzU1w8QoitzofJVqUv+wAAJ2pldGJyYWlucy5tcHMuY29uc29sZS5zY3JpcHRzLnN0cnVjdHVyZXD/////ByiTW6DucpFMqqgH126PxpORAAApamV0YnJhaW5zLm1wcy5jb25zb2xlLmJsQ29tbWFuZC5zdHJ1Y3R1cmVw/////wcoE1pgbwN2TFyauEAw8FGgYgAAK2pldGJyYWlucy5tcHMuY29uc29sZS5pZGVDb21tYW5kcy5zdHJ1Y3R1cmVw/////wcokERSBqlzTB23YDDlx3t0lwAAMGpldGJyYWlucy5tcHMuY29uc29sZS5pbnRlcm5hbENvbW1hbmRzLnN0cnVjdHVyZXD/////urq6ugAAAAEAARgdQPeFwS9FWv//ewAAAAAAAAAAAAIAAxgdQPeFwS9FkAAAewAAAAAAAAAAAAB9AAIYHUD3hcEvRZEAAXsAAQAAAQAAAAkAAAAAAAAAAH19" />
         </TabState>
       </list>
     </option>
@@ -51,63 +53,6 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="JavaClassName" pinned="false" current-in-tab="false">
-        <entry file="mps://node://de.fhb.RESTGen/de.fhb.RESTGen.structure/JavaClassName">
-          <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-              <memento viewPositionX="0" viewPositionY="0">
-                <selectionStack>
-                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                    <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretX" value="311" />
-                    <property name="caretXRelative" value="132" />
-                    <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="property_constraint" cellNumber="0" isInList="false">
-                      <node node_reference="r:f0eb351a-c060-432e-9f71-bfab75273570(de.fhb.RESTGen.structure)/1883991635737316896" />
-                    </cellInfo>
-                  </stackElement>
-                </selectionStack>
-                <errorMarkers />
-                <folded />
-              </memento>
-              <inspectorMemento currentlyEditedNode="r:f0eb351a-c060-432e-9f71-bfab75273570(de.fhb.RESTGen.structure)/1883991635737161780" viewPositionX="0" viewPositionY="0">
-                <selectionStack />
-                <errorMarkers />
-                <folded />
-              </inspectorMemento>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DTOReference" pinned="false" current-in-tab="true">
-        <entry file="mps://node://de.fhb.RESTGen/de.fhb.RESTGen.structure/DTOReference">
-          <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-              <memento viewPositionX="0" viewPositionY="0">
-                <selectionStack>
-                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                    <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretX" value="271" />
-                    <property name="caretXRelative" value="0" />
-                    <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="Constant_ueqr71_a1b4a0" cellNumber="0" isInList="false">
-                      <node node_reference="r:f0eb351a-c060-432e-9f71-bfab75273570(de.fhb.RESTGen.structure)/1883991635737161780" />
-                    </cellInfo>
-                  </stackElement>
-                </selectionStack>
-                <errorMarkers />
-                <folded />
-              </memento>
-              <inspectorMemento currentlyEditedNode="r:f0eb351a-c060-432e-9f71-bfab75273570(de.fhb.RESTGen.structure)/1883991635737161780" viewPositionX="0" viewPositionY="0">
-                <selectionStack />
-                <errorMarkers />
-                <folded />
-              </inspectorMemento>
-              <node node_ref="r:f0eb351a-c060-432e-9f71-bfab75273570(de.fhb.RESTGen.structure)/1883991635737161780" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Script" pinned="false" current-in-tab="false">
         <entry file="mps://node://de.fhb.TestSolution/TestSolution.Run/Script">
           <provider selected="true" editor-type-id="MPSFileEditor">
@@ -116,47 +61,173 @@
                 <selectionStack>
                   <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                     <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretX" value="135" />
-                    <property name="caretXRelative" value="4" />
+                    <property name="caretX" value="63" />
+                    <property name="caretXRelative" value="16" />
                     <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="empty_dto" cellNumber="0" isInList="false">
-                      <node node_reference="r:5c3a1d40-15c5-4b93-b2f2-cc2f828af07d(TestSolution.Run)/7432388850530610218" />
+                    <cellInfo cellId="Constant_24etv2_b1a" cellNumber="0" isInList="false">
+                      <node node_reference="r:5c3a1d40-15c5-4b93-b2f2-cc2f828af07d(TestSolution.Run)/2107956779453366841" />
                     </cellInfo>
                   </stackElement>
                 </selectionStack>
-                <errorMarkers>
-                  <errorMarker text="" propertyCell="false" cellId="empty_dto" cellNumber="0" isInList="false">
-                    <node node_reference="r:5c3a1d40-15c5-4b93-b2f2-cc2f828af07d(TestSolution.Run)/7432388850530610218" />
-                  </errorMarker>
-                  <errorMarker text="" propertyCell="true" cellId="property_groupID" cellNumber="0" isInList="false">
-                    <node node_reference="r:5c3a1d40-15c5-4b93-b2f2-cc2f828af07d(TestSolution.Run)/2567912773592789996" />
-                  </errorMarker>
-                  <errorMarker text="" propertyCell="true" cellId="property_baseName" cellNumber="0" isInList="false">
-                    <node node_reference="r:5c3a1d40-15c5-4b93-b2f2-cc2f828af07d(TestSolution.Run)/2567912773592789996" />
-                  </errorMarker>
-                  <errorMarker text="" propertyCell="true" cellId="property_artifactID" cellNumber="0" isInList="false">
-                    <node node_reference="r:5c3a1d40-15c5-4b93-b2f2-cc2f828af07d(TestSolution.Run)/2567912773592789996" />
-                  </errorMarker>
-                  <errorMarker text="" modelText="+" propertyCell="true" cellId="property_description" cellNumber="0" isInList="false">
-                    <node node_reference="r:5c3a1d40-15c5-4b93-b2f2-cc2f828af07d(TestSolution.Run)/2567912773592789996" />
-                  </errorMarker>
-                  <errorMarker text="" modelText="https:" propertyCell="true" cellId="property_host" cellNumber="0" isInList="false">
-                    <node node_reference="r:5c3a1d40-15c5-4b93-b2f2-cc2f828af07d(TestSolution.Run)/2567912773592789996" />
-                  </errorMarker>
-                  <errorMarker text="" propertyCell="true" cellId="property_version" cellNumber="0" isInList="false">
-                    <node node_reference="r:5c3a1d40-15c5-4b93-b2f2-cc2f828af07d(TestSolution.Run)/2567912773592789996" />
-                  </errorMarker>
-                  <errorMarker text="" modelText="1.8" propertyCell="true" cellId="property_javaVersion" cellNumber="0" isInList="false">
-                    <node node_reference="r:5c3a1d40-15c5-4b93-b2f2-cc2f828af07d(TestSolution.Run)/2567912773592789996" />
-                  </errorMarker>
-                </errorMarkers>
+                <errorMarkers />
                 <folded />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:f0eb351a-c060-432e-9f71-bfab75273570(de.fhb.RESTGen.structure)/1883991635737161780" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:f0eb351a-c060-432e-9f71-bfab75273570(de.fhb.RESTGen.structure)/2567912773592861517" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <folded />
               </inspectorMemento>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Model" pinned="false" current-in-tab="false">
+        <entry file="mps://node://de.fhb.RESTGen/de.fhb.RESTGen.textGen/Model">
+          <provider selected="true" editor-type-id="MPSFileEditor">
+            <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+              <memento viewPositionX="0" viewPositionY="0">
+                <selectionStack>
+                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                    <property name="hasNonTrivialSelection" value="false" />
+                    <property name="caretX" value="831" />
+                    <property name="caretXRelative" value="20" />
+                    <property name="sideSelectDirection" value="NONE" />
+                    <cellInfo cellId="Constant_moyyqd_a0" cellNumber="0" isInList="false">
+                      <node node_reference="r:58fa95e8-b99e-41d9-a653-6af739e0f268(de.fhb.RESTGen.textGen)/5318947711292398900" />
+                    </cellInfo>
+                  </stackElement>
+                </selectionStack>
+                <errorMarkers />
+                <folded />
+              </memento>
+              <inspectorMemento currentlyEditedNode="r:f0eb351a-c060-432e-9f71-bfab75273570(de.fhb.RESTGen.structure)/2567912773592861517" viewPositionX="0" viewPositionY="0">
+                <selectionStack />
+                <errorMarkers />
+                <folded />
+              </inspectorMemento>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ServiceAndRepository" pinned="false" current-in-tab="false">
+        <entry file="mps://node://de.fhb.RESTGen/de.fhb.RESTGen.textGen/ServiceAndRepository">
+          <provider selected="true" editor-type-id="MPSFileEditor">
+            <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+              <memento viewPositionX="0" viewPositionY="0">
+                <selectionStack>
+                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                    <property name="hasNonTrivialSelection" value="false" />
+                    <property name="caretX" value="447" />
+                    <property name="caretXRelative" value="28" />
+                    <property name="sideSelectDirection" value="NONE" />
+                    <cellInfo cellId="VDNCC_property_name" cellNumber="0" isInList="false">
+                      <node node_reference="r:58fa95e8-b99e-41d9-a653-6af739e0f268(de.fhb.RESTGen.textGen)/5318947711292404909" />
+                    </cellInfo>
+                  </stackElement>
+                </selectionStack>
+                <errorMarkers />
+                <folded />
+              </memento>
+              <inspectorMemento currentlyEditedNode="r:f0eb351a-c060-432e-9f71-bfab75273570(de.fhb.RESTGen.structure)/2567912773592861517" viewPositionX="0" viewPositionY="0">
+                <selectionStack />
+                <errorMarkers />
+                <folded />
+              </inspectorMemento>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DTO" pinned="false" current-in-tab="false">
+        <entry file="mps://node://de.fhb.RESTGen/de.fhb.RESTGen.structure/DTO">
+          <provider selected="true" editor-type-id="MPSFileEditor">
+            <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
+              <memento viewPositionX="0" viewPositionY="0">
+                <selectionStack>
+                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                    <property name="hasNonTrivialSelection" value="false" />
+                    <property name="caretX" value="211" />
+                    <property name="caretXRelative" value="8" />
+                    <property name="sideSelectDirection" value="NONE" />
+                    <cellInfo cellId="Constant_6h6dhy_e2a" cellNumber="0" isInList="false">
+                      <node node_reference="r:f0eb351a-c060-432e-9f71-bfab75273570(de.fhb.RESTGen.structure)/2567912773592861517" />
+                    </cellInfo>
+                  </stackElement>
+                </selectionStack>
+                <errorMarkers />
+                <folded />
+              </memento>
+              <inspectorMemento currentlyEditedNode="r:f0eb351a-c060-432e-9f71-bfab75273570(de.fhb.RESTGen.structure)/2567912773592861517" viewPositionX="0" viewPositionY="0">
+                <selectionStack />
+                <errorMarkers />
+                <folded />
+              </inspectorMemento>
+              <node node_ref="r:f0eb351a-c060-432e-9f71-bfab75273570(de.fhb.RESTGen.structure)/2567912773592861330" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="null.tmp" pinned="false" current-in-tab="true">
+        <entry file="previewTestSolution.Run/null.tmp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-1.035313" vertical-offset="645" max-vertical-offset="2025">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Controller" pinned="false" current-in-tab="false">
+        <entry file="mps://node://de.fhb.RESTGen/de.fhb.RESTGen.textGen/Controller">
+          <provider selected="true" editor-type-id="MPSFileEditor">
+            <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+              <memento viewPositionX="0" viewPositionY="0">
+                <selectionStack>
+                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                    <property name="hasNonTrivialSelection" value="false" />
+                    <property name="caretX" value="47" />
+                    <property name="caretXRelative" value="0" />
+                    <property name="sideSelectDirection" value="NONE" />
+                    <cellInfo cellId="Constant_u338ov_a0a" cellNumber="0" isInList="false">
+                      <node node_reference="r:58fa95e8-b99e-41d9-a653-6af739e0f268(de.fhb.RESTGen.textGen)/5318947711292404979" />
+                    </cellInfo>
+                  </stackElement>
+                </selectionStack>
+                <errorMarkers />
+                <folded />
+              </memento>
+              <inspectorMemento currentlyEditedNode="r:f0eb351a-c060-432e-9f71-bfab75273570(de.fhb.RESTGen.structure)/2567912773592861517" viewPositionX="0" viewPositionY="0">
+                <selectionStack />
+                <errorMarkers />
+                <folded />
+              </inspectorMemento>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Script" pinned="false" current-in-tab="false">
+        <entry file="mps://node://de.fhb.RESTGen/de.fhb.RESTGen.structure/Script">
+          <provider selected="true" editor-type-id="MPSFileEditor">
+            <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
+              <memento viewPositionX="0" viewPositionY="0">
+                <selectionStack>
+                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                    <property name="hasNonTrivialSelection" value="false" />
+                    <property name="caretX" value="311" />
+                    <property name="caretXRelative" value="52" />
+                    <property name="sideSelectDirection" value="NONE" />
+                    <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                      <node node_reference="r:58fa95e8-b99e-41d9-a653-6af739e0f268(de.fhb.RESTGen.textGen)/8813661926077040125" />
+                    </cellInfo>
+                  </stackElement>
+                </selectionStack>
+                <errorMarkers />
+                <folded />
+              </memento>
+              <inspectorMemento currentlyEditedNode="r:f0eb351a-c060-432e-9f71-bfab75273570(de.fhb.RESTGen.structure)/2567912773592861517" viewPositionX="0" viewPositionY="0">
+                <selectionStack />
+                <errorMarkers />
+                <folded />
+              </inspectorMemento>
+              <node node_ref="r:58fa95e8-b99e-41d9-a653-6af739e0f268(de.fhb.RESTGen.textGen)/8813661926077040125" />
             </state>
           </provider>
         </entry>
@@ -265,6 +336,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Favorites" />
       <pane id="FileSystem">
         <subPane>
           <PATH>
@@ -353,7 +425,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Favorites" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -389,68 +460,6 @@
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="de.fhb.RESTGen.typesystem">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Skeleton">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Empty">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Project">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="de.fhb.RESTGen">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="de.fhb.RESTGen.constraints">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Skeleton">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Empty">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Project">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="de.fhb.RESTGen">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="de.fhb.RESTGen.editor">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Empty">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Project">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="de.fhb.RESTGen">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
             <PATH_ELEMENT USER_OBJECT="de.fhb.RESTGen.structure">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
@@ -484,6 +493,18 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT USER_OBJECT="Project">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="de.fhb.TestSolution">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="TestSolution">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="TestSolution.Run">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
@@ -500,7 +521,7 @@
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="FullScreen" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/MPSSamples.3.2.3/theSimplestLanguage" />
+    <property name="last_opened_file_path" value="$USER_HOME$/MPSSamples.3.2.3/generator_demo" />
     <property name="options.lastSelected" value="http.certificates" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
@@ -548,35 +569,35 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Bookmarks" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Model Checker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.327852" sideWeight="0.49909583" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Migration" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32942432" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Generation Tracer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Model Checker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.327852" sideWeight="0.49909583" order="24" side_tool="false" content_ui="tabs" />
+      <window_info id="Migration" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32942432" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Generation Tracer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Class Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Module Dependencies" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32945737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspector" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32374102" sideWeight="0.50090414" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Usages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Module Dependencies" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32945737" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspector" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.331963" sideWeight="0.50090414" order="13" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24960506" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Usages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32374102" sideWeight="0.49909583" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33093524" sideWeight="0.49909583" order="16" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="17" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="RefactoringView" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934132" sideWeight="0.4996986" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Node Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Typechecker State" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Supertypes" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Typesystem Trace" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18384568" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Classpath Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Cell Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Dependencies Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="RefactoringView" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934132" sideWeight="0.4996986" order="18" side_tool="false" content_ui="tabs" />
+      <window_info id="Node Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.13874614" sideWeight="0.4997367" order="19" side_tool="false" content_ui="tabs" />
+      <window_info id="Typechecker State" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="20" side_tool="false" content_ui="tabs" />
+      <window_info id="Supertypes" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Typesystem Trace" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23688969" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Classpath Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="21" side_tool="false" content_ui="tabs" />
+      <window_info id="Cell Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="22" side_tool="false" content_ui="tabs" />
+      <window_info id="Dependencies Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="23" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -609,30 +630,29 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="mps://node://de.fhb.RESTGen/de.fhb.RESTGen.structure/DTOField">
+    <entry file="mps://node://de.fhb.RESTGen/de.fhb.RESTGen.textGen/Model">
       <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
           <memento viewPositionX="0" viewPositionY="0">
             <selectionStack>
               <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                 <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="183" />
-                <property name="caretXRelative" value="36" />
+                <property name="caretX" value="831" />
+                <property name="caretXRelative" value="20" />
                 <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="name" cellNumber="0" isInList="false">
-                  <node node_reference="r:f0eb351a-c060-432e-9f71-bfab75273570(de.fhb.RESTGen.structure)/1883991635737330791" />
+                <cellInfo cellId="Constant_moyyqd_a0" cellNumber="0" isInList="false">
+                  <node node_reference="r:58fa95e8-b99e-41d9-a653-6af739e0f268(de.fhb.RESTGen.textGen)/5318947711292398900" />
                 </cellInfo>
               </stackElement>
             </selectionStack>
             <errorMarkers />
             <folded />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:f0eb351a-c060-432e-9f71-bfab75273570(de.fhb.RESTGen.structure)/2567912773592861330" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:f0eb351a-c060-432e-9f71-bfab75273570(de.fhb.RESTGen.structure)/2567912773592861517" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <folded />
           </inspectorMemento>
-          <node node_ref="r:f0eb351a-c060-432e-9f71-bfab75273570(de.fhb.RESTGen.structure)/1883991635737330791" />
         </state>
       </provider>
     </entry>
@@ -640,79 +660,85 @@
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
           <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="71" />
-                <property name="caretXRelative" value="56" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="Constant_ueqr71_c0a" cellNumber="0" isInList="false">
-                  <node node_reference="r:f0eb351a-c060-432e-9f71-bfab75273570(de.fhb.RESTGen.structure)/2567912773592861330" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
+            <selectionStack />
             <errorMarkers />
             <folded />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:f0eb351a-c060-432e-9f71-bfab75273570(de.fhb.RESTGen.structure)/2567912773592861330" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:58fa95e8-b99e-41d9-a653-6af739e0f268(de.fhb.RESTGen.textGen)/5318947711292414302" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <folded />
           </inspectorMemento>
-          <node node_ref="r:f0eb351a-c060-432e-9f71-bfab75273570(de.fhb.RESTGen.structure)/2567912773592861330" />
+          <node node_ref="r:58fa95e8-b99e-41d9-a653-6af739e0f268(de.fhb.RESTGen.textGen)/2021138940613826709" />
         </state>
       </provider>
     </entry>
-    <entry file="mps://node://de.fhb.RESTGen/de.fhb.RESTGen.structure/Request">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="215" />
-                <property name="caretXRelative" value="100" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                  <node node_reference="r:f0eb351a-c060-432e-9f71-bfab75273570(de.fhb.RESTGen.structure)/2567912773592995432" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorMarkers />
-            <folded />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:f0eb351a-c060-432e-9f71-bfab75273570(de.fhb.RESTGen.structure)/2567912773592861330" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <folded />
-          </inspectorMemento>
-          <node node_ref="r:f0eb351a-c060-432e-9f71-bfab75273570(de.fhb.RESTGen.structure)/2567912773592890344" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://de.fhb.RESTGen/de.fhb.RESTGen.structure/EndpointPath">
+    <entry file="mps://node://de.fhb.RESTGen/de.fhb.RESTGen.textGen/ServiceAndRepository">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
           <memento viewPositionX="0" viewPositionY="0">
             <selectionStack>
               <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                 <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="439" />
-                <property name="caretXRelative" value="260" />
+                <property name="caretX" value="447" />
+                <property name="caretXRelative" value="28" />
                 <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_constraint" cellNumber="0" isInList="false">
-                  <node node_reference="r:f0eb351a-c060-432e-9f71-bfab75273570(de.fhb.RESTGen.structure)/495351909176156340" />
+                <cellInfo cellId="VDNCC_property_name" cellNumber="0" isInList="false">
+                  <node node_reference="r:58fa95e8-b99e-41d9-a653-6af739e0f268(de.fhb.RESTGen.textGen)/5318947711292404909" />
                 </cellInfo>
               </stackElement>
             </selectionStack>
             <errorMarkers />
             <folded />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:f0eb351a-c060-432e-9f71-bfab75273570(de.fhb.RESTGen.structure)/2567912773592861330" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:f0eb351a-c060-432e-9f71-bfab75273570(de.fhb.RESTGen.structure)/2567912773592861517" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <folded />
           </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://de.fhb.RESTGen/de.fhb.RESTGen.textGen/Controller">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="47" />
+                <property name="caretXRelative" value="0" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Constant_u338ov_a0a" cellNumber="0" isInList="false">
+                  <node node_reference="r:58fa95e8-b99e-41d9-a653-6af739e0f268(de.fhb.RESTGen.textGen)/5318947711292404979" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <folded />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:f0eb351a-c060-432e-9f71-bfab75273570(de.fhb.RESTGen.structure)/2567912773592861517" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <folded />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://de.fhb.RESTGen/de.fhb.RESTGen.structure/Script">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <folded />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:58fa95e8-b99e-41d9-a653-6af739e0f268(de.fhb.RESTGen.textGen)/5318947711292414302" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <folded />
+          </inspectorMemento>
+          <node node_ref="r:58fa95e8-b99e-41d9-a653-6af739e0f268(de.fhb.RESTGen.textGen)/8813661926077040125" />
         </state>
       </provider>
     </entry>
@@ -739,23 +765,6 @@
             <errorMarkers />
             <folded />
           </inspectorMemento>
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://de.fhb.RESTGen/de.fhb.RESTGen.structure/PrimitiveField">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <folded />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:f0eb351a-c060-432e-9f71-bfab75273570(de.fhb.RESTGen.structure)/1883991635737317958" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <folded />
-          </inspectorMemento>
-          <node node_ref="r:46b4124d-dd20-4ced-80da-55d255855c55(de.fhb.RESTGen.editor)/3873210820990875176" />
         </state>
       </provider>
     </entry>
@@ -1169,32 +1178,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="mps://node://de.fhb.RESTGen/de.fhb.RESTGen.structure/PrimitiveDatatype">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="223" />
-                <property name="caretXRelative" value="44" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                  <node node_reference="r:f0eb351a-c060-432e-9f71-bfab75273570(de.fhb.RESTGen.structure)/2567912773592970559" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorMarkers />
-            <folded />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:f0eb351a-c060-432e-9f71-bfab75273570(de.fhb.RESTGen.structure)/2567912773592970559" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <folded />
-          </inspectorMemento>
-        </state>
-      </provider>
-    </entry>
     <entry file="mps://node://jetbrains.mps.lang.core/jetbrains.mps.lang.core.structure/INamedConcept">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
@@ -1219,60 +1202,6 @@
             <folded />
           </inspectorMemento>
           <node node_ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)/1169194658468" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://de.fhb.RESTGen/de.fhb.RESTGen.structure/Dependency">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="247" />
-                <property name="caretXRelative" value="116" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                  <node node_reference="r:f0eb351a-c060-432e-9f71-bfab75273570(de.fhb.RESTGen.structure)/2567912773592747423" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorMarkers />
-            <folded />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:f0eb351a-c060-432e-9f71-bfab75273570(de.fhb.RESTGen.structure)/2567912773592747423" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <folded />
-          </inspectorMemento>
-          <node node_ref="r:f0eb351a-c060-432e-9f71-bfab75273570(de.fhb.RESTGen.structure)/2567912773592281895" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://de.fhb.RESTGen/de.fhb.RESTGen.structure/PrimitiveField">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="119" />
-                <property name="caretXRelative" value="88" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="Constant_ueqr71_i1c0" cellNumber="0" isInList="false">
-                  <node node_reference="r:f0eb351a-c060-432e-9f71-bfab75273570(de.fhb.RESTGen.structure)/3873210820990874038" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorMarkers />
-            <folded />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:f0eb351a-c060-432e-9f71-bfab75273570(de.fhb.RESTGen.structure)/1883991635737317384" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <folded />
-          </inspectorMemento>
-          <node node_ref="r:f0eb351a-c060-432e-9f71-bfab75273570(de.fhb.RESTGen.structure)/3873210820990874038" />
         </state>
       </provider>
     </entry>
@@ -1443,33 +1372,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="mps://node://de.fhb.RESTGen/de.fhb.RESTGen.structure/DTO">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="183" />
-                <property name="caretXRelative" value="4" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                  <node node_reference="r:5076ea95-8012-4c66-806c-afa5a83611c2(de.fhb.RESTGen.constraints)/3873210820990943620" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorMarkers />
-            <folded />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:5076ea95-8012-4c66-806c-afa5a83611c2(de.fhb.RESTGen.constraints)/3873210820990943620" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <folded />
-          </inspectorMemento>
-          <node node_ref="r:5076ea95-8012-4c66-806c-afa5a83611c2(de.fhb.RESTGen.constraints)/3873210820990943620" />
-        </state>
-      </provider>
-    </entry>
     <entry file="mps://node://de.fhb.RESTGen/de.fhb.RESTGen.structure/ProjectVersion">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
@@ -1489,59 +1391,6 @@
             <folded />
           </memento>
           <inspectorMemento currentlyEditedNode="r:f0eb351a-c060-432e-9f71-bfab75273570(de.fhb.RESTGen.structure)/2567912773592137489" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <folded />
-          </inspectorMemento>
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://de.fhb.RESTGen/de.fhb.RESTGen.structure/SpringSettings">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="71" />
-                <property name="caretXRelative" value="56" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="Constant_ueqr71_c0a" cellNumber="0" isInList="false">
-                  <node node_reference="r:f0eb351a-c060-432e-9f71-bfab75273570(de.fhb.RESTGen.structure)/2567912773591873980" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorMarkers />
-            <folded />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:f0eb351a-c060-432e-9f71-bfab75273570(de.fhb.RESTGen.structure)/2567912773591873980" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <folded />
-          </inspectorMemento>
-          <node node_ref="r:f0eb351a-c060-432e-9f71-bfab75273570(de.fhb.RESTGen.structure)/2567912773591873980" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://de.fhb.RESTGen#1349512680527399910/de.fhb.RESTGen.generator.template.main@generator/main">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="191" />
-                <property name="caretXRelative" value="4" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                  <node node_reference="r:d478d75b-c1bb-4c52-93c1-787ed361e6f7(de.fhb.RESTGen.generator.template.main@generator)/1349512680527399911" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorMarkers />
-            <folded />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:d478d75b-c1bb-4c52-93c1-787ed361e6f7(de.fhb.RESTGen.generator.template.main@generator)/1349512680527399911" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <folded />
@@ -1644,84 +1493,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="mps://node://de.fhb.TestSolution/TestSolution.Run/Script">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="135" />
-                <property name="caretXRelative" value="4" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="empty_dto" cellNumber="0" isInList="false">
-                  <node node_reference="r:5c3a1d40-15c5-4b93-b2f2-cc2f828af07d(TestSolution.Run)/7432388850530610218" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorMarkers>
-              <errorMarker text="" propertyCell="false" cellId="empty_dto" cellNumber="0" isInList="false">
-                <node node_reference="r:5c3a1d40-15c5-4b93-b2f2-cc2f828af07d(TestSolution.Run)/7432388850530610218" />
-              </errorMarker>
-              <errorMarker text="" propertyCell="true" cellId="property_groupID" cellNumber="0" isInList="false">
-                <node node_reference="r:5c3a1d40-15c5-4b93-b2f2-cc2f828af07d(TestSolution.Run)/2567912773592789996" />
-              </errorMarker>
-              <errorMarker text="" propertyCell="true" cellId="property_baseName" cellNumber="0" isInList="false">
-                <node node_reference="r:5c3a1d40-15c5-4b93-b2f2-cc2f828af07d(TestSolution.Run)/2567912773592789996" />
-              </errorMarker>
-              <errorMarker text="" propertyCell="true" cellId="property_artifactID" cellNumber="0" isInList="false">
-                <node node_reference="r:5c3a1d40-15c5-4b93-b2f2-cc2f828af07d(TestSolution.Run)/2567912773592789996" />
-              </errorMarker>
-              <errorMarker text="" modelText="+" propertyCell="true" cellId="property_description" cellNumber="0" isInList="false">
-                <node node_reference="r:5c3a1d40-15c5-4b93-b2f2-cc2f828af07d(TestSolution.Run)/2567912773592789996" />
-              </errorMarker>
-              <errorMarker text="" modelText="https:" propertyCell="true" cellId="property_host" cellNumber="0" isInList="false">
-                <node node_reference="r:5c3a1d40-15c5-4b93-b2f2-cc2f828af07d(TestSolution.Run)/2567912773592789996" />
-              </errorMarker>
-              <errorMarker text="" propertyCell="true" cellId="property_version" cellNumber="0" isInList="false">
-                <node node_reference="r:5c3a1d40-15c5-4b93-b2f2-cc2f828af07d(TestSolution.Run)/2567912773592789996" />
-              </errorMarker>
-              <errorMarker text="" modelText="1.8" propertyCell="true" cellId="property_javaVersion" cellNumber="0" isInList="false">
-                <node node_reference="r:5c3a1d40-15c5-4b93-b2f2-cc2f828af07d(TestSolution.Run)/2567912773592789996" />
-              </errorMarker>
-            </errorMarkers>
-            <folded />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:f0eb351a-c060-432e-9f71-bfab75273570(de.fhb.RESTGen.structure)/1883991635737161780" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <folded />
-          </inspectorMemento>
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://de.fhb.RESTGen/de.fhb.RESTGen.structure/DTOReference">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="271" />
-                <property name="caretXRelative" value="0" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="Constant_ueqr71_a1b4a0" cellNumber="0" isInList="false">
-                  <node node_reference="r:f0eb351a-c060-432e-9f71-bfab75273570(de.fhb.RESTGen.structure)/1883991635737161780" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorMarkers />
-            <folded />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:f0eb351a-c060-432e-9f71-bfab75273570(de.fhb.RESTGen.structure)/1883991635737161780" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <folded />
-          </inspectorMemento>
-          <node node_ref="r:f0eb351a-c060-432e-9f71-bfab75273570(de.fhb.RESTGen.structure)/1883991635737161780" />
-        </state>
-      </provider>
-    </entry>
     <entry file="mps://node://de.fhb.RESTGen/de.fhb.RESTGen.structure/JavaClassName">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
@@ -1740,65 +1511,11 @@
             <errorMarkers />
             <folded />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:f0eb351a-c060-432e-9f71-bfab75273570(de.fhb.RESTGen.structure)/1883991635737161780" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:f0eb351a-c060-432e-9f71-bfab75273570(de.fhb.RESTGen.structure)/1883991635737316896" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <folded />
           </inspectorMemento>
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://de.fhb.RESTGen/de.fhb.RESTGen.structure/DTOField">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="183" />
-                <property name="caretXRelative" value="36" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="name" cellNumber="0" isInList="false">
-                  <node node_reference="r:f0eb351a-c060-432e-9f71-bfab75273570(de.fhb.RESTGen.structure)/1883991635737330791" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorMarkers />
-            <folded />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:f0eb351a-c060-432e-9f71-bfab75273570(de.fhb.RESTGen.structure)/1883991635737330791" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <folded />
-          </inspectorMemento>
-          <node node_ref="r:f0eb351a-c060-432e-9f71-bfab75273570(de.fhb.RESTGen.structure)/1883991635737330791" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://de.fhb.RESTGen/de.fhb.RESTGen.structure/Script">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="15" />
-                <property name="caretXRelative" value="0" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="Constant_ueqr71_c0a" cellNumber="0" isInList="false">
-                  <node node_reference="r:f0eb351a-c060-432e-9f71-bfab75273570(de.fhb.RESTGen.structure)/2567912773592745833" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorMarkers />
-            <folded />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:f0eb351a-c060-432e-9f71-bfab75273570(de.fhb.RESTGen.structure)/2567912773592745833" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <folded />
-          </inspectorMemento>
-          <node node_ref="r:f0eb351a-c060-432e-9f71-bfab75273570(de.fhb.RESTGen.structure)/2567912773592745833" />
         </state>
       </provider>
     </entry>
@@ -1825,6 +1542,272 @@
             <errorMarkers />
             <folded />
           </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://de.fhb.RESTGen/de.fhb.RESTGen.structure/ProjectType">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="191" />
+                <property name="caretXRelative" value="4" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_hasNoDefaultMember" cellNumber="0" isInList="false">
+                  <node node_reference="r:f0eb351a-c060-432e-9f71-bfab75273570(de.fhb.RESTGen.structure)/2567912773591920325" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <folded />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:f0eb351a-c060-432e-9f71-bfab75273570(de.fhb.RESTGen.structure)/2567912773591920325" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <folded />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://de.fhb.RESTGen/de.fhb.RESTGen.structure/PrimitiveDatatype">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="223" />
+                <property name="caretXRelative" value="44" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                  <node node_reference="r:f0eb351a-c060-432e-9f71-bfab75273570(de.fhb.RESTGen.structure)/2567912773592970559" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <folded />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:f0eb351a-c060-432e-9f71-bfab75273570(de.fhb.RESTGen.structure)/2567912773592970559" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <folded />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://de.fhb.TestSolution/TestSolution.Run/Script">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="63" />
+                <property name="caretXRelative" value="16" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Constant_24etv2_b1a" cellNumber="0" isInList="false">
+                  <node node_reference="r:5c3a1d40-15c5-4b93-b2f2-cc2f828af07d(TestSolution.Run)/2107956779453366841" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <folded />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:f0eb351a-c060-432e-9f71-bfab75273570(de.fhb.RESTGen.structure)/2567912773592861517" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <folded />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://de.fhb.RESTGen/de.fhb.RESTGen.structure/DTOField">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="31" />
+                <property name="caretXRelative" value="0" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="emptyChildrenPlaceHolder" cellNumber="0" isInList="false">
+                  <node node_reference="r:f0eb351a-c060-432e-9f71-bfab75273570(de.fhb.RESTGen.structure)/1883991635737330791" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <folded />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:f0eb351a-c060-432e-9f71-bfab75273570(de.fhb.RESTGen.structure)/1883991635737330791" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <folded />
+          </inspectorMemento>
+          <node node_ref="r:f0eb351a-c060-432e-9f71-bfab75273570(de.fhb.RESTGen.structure)/1883991635737330791" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://de.fhb.RESTGen#1349512680527399910/de.fhb.RESTGen.generator.template.main@generator/main">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento viewPositionX="0" viewPositionY="61">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="31" />
+                <property name="caretXRelative" value="0" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="empty_condition" cellNumber="0" isInList="false">
+                  <node node_reference="r:d478d75b-c1bb-4c52-93c1-787ed361e6f7(de.fhb.RESTGen.generator.template.main@generator)/1349512680527399911" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <folded />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:f0eb351a-c060-432e-9f71-bfab75273570(de.fhb.RESTGen.structure)/1883991635737330791" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <folded />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://de.fhb.RESTGen/de.fhb.RESTGen.structure/SpringSettings">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="119" />
+                <property name="caretXRelative" value="88" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Constant_ueqr71_o1c0" cellNumber="0" isInList="false">
+                  <node node_reference="r:f0eb351a-c060-432e-9f71-bfab75273570(de.fhb.RESTGen.structure)/2567912773591873980" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <folded />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:f0eb351a-c060-432e-9f71-bfab75273570(de.fhb.RESTGen.structure)/2567912773591873980" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <folded />
+          </inspectorMemento>
+          <node node_ref="r:f0eb351a-c060-432e-9f71-bfab75273570(de.fhb.RESTGen.structure)/2567912773591873980" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://de.fhb.RESTGen/de.fhb.RESTGen.structure/Dependency">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="151" />
+                <property name="caretXRelative" value="104" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="ALIAS_EDITOR_COMPONENT" cellNumber="0" isInList="false">
+                  <node node_reference="r:58fa95e8-b99e-41d9-a653-6af739e0f268(de.fhb.RESTGen.textGen)/5318947711291903557" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <folded />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:58fa95e8-b99e-41d9-a653-6af739e0f268(de.fhb.RESTGen.textGen)/5318947711291903557" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <folded />
+          </inspectorMemento>
+          <node node_ref="r:58fa95e8-b99e-41d9-a653-6af739e0f268(de.fhb.RESTGen.textGen)/5318947711291641731" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://de.fhb.RESTGen/de.fhb.RESTGen.structure/Script">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="311" />
+                <property name="caretXRelative" value="52" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                  <node node_reference="r:58fa95e8-b99e-41d9-a653-6af739e0f268(de.fhb.RESTGen.textGen)/8813661926077040125" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <folded />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:f0eb351a-c060-432e-9f71-bfab75273570(de.fhb.RESTGen.structure)/2567912773592861517" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <folded />
+          </inspectorMemento>
+          <node node_ref="r:58fa95e8-b99e-41d9-a653-6af739e0f268(de.fhb.RESTGen.textGen)/8813661926077040125" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://de.fhb.RESTGen/de.fhb.RESTGen.structure/DTOReference">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="95" />
+                <property name="caretXRelative" value="64" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Constant_ueqr71_i1c0" cellNumber="0" isInList="false">
+                  <node node_reference="r:f0eb351a-c060-432e-9f71-bfab75273570(de.fhb.RESTGen.structure)/1883991635737161780" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <folded />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:f0eb351a-c060-432e-9f71-bfab75273570(de.fhb.RESTGen.structure)/1883991635737330791" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <folded />
+          </inspectorMemento>
+          <node node_ref="r:f0eb351a-c060-432e-9f71-bfab75273570(de.fhb.RESTGen.structure)/1883991635737161780" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://de.fhb.RESTGen/de.fhb.RESTGen.structure/DTO">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="211" />
+                <property name="caretXRelative" value="8" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Constant_6h6dhy_e2a" cellNumber="0" isInList="false">
+                  <node node_reference="r:f0eb351a-c060-432e-9f71-bfab75273570(de.fhb.RESTGen.structure)/2567912773592861517" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <folded />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:f0eb351a-c060-432e-9f71-bfab75273570(de.fhb.RESTGen.structure)/2567912773592861517" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <folded />
+          </inspectorMemento>
+          <node node_ref="r:f0eb351a-c060-432e-9f71-bfab75273570(de.fhb.RESTGen.structure)/2567912773592861330" />
         </state>
       </provider>
     </entry>

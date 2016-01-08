@@ -308,22 +308,6 @@
       <node concept="2iRkQZ" id="3n0qbxPn79I" role="2iSdaV" />
     </node>
   </node>
-  <node concept="24kQdi" id="3n0qbxPn3oC">
-    <property role="3GE5qa" value="Skeleton" />
-    <ref role="1XX52x" to="38xb:3n0qbxPn36Q" resolve="PrimitiveField" />
-    <node concept="3EZMnI" id="3n0qbxPn3OV" role="2wV5jI">
-      <node concept="3F0A7n" id="3n0qbxPn3P9" role="3EZMnx">
-        <ref role="1NtTu8" to="38xb:3n0qbxPn3mQ" resolve="type" />
-      </node>
-      <node concept="3F0ifn" id="1C_i6$JV$Iw" role="3EZMnx">
-        <property role="3F0ifm" value=":" />
-      </node>
-      <node concept="3F0A7n" id="1C_i6$JV$IH" role="3EZMnx">
-        <ref role="1NtTu8" to="38xb:1C_i6$JV$i6" resolve="name" />
-      </node>
-      <node concept="2iRfu4" id="3n0qbxPn3OY" role="2iSdaV" />
-    </node>
-  </node>
   <node concept="24kQdi" id="1C_i6$JUzjl">
     <property role="3GE5qa" value="Skeleton" />
     <ref role="1XX52x" to="38xb:2ez3KZGcjJC" resolve="Request" />
@@ -396,6 +380,22 @@
           </node>
         </node>
       </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="4BgGGcIsnCy">
+    <property role="3GE5qa" value="Skeleton" />
+    <ref role="1XX52x" to="38xb:1C_i6$JV$hB" resolve="DTOField" />
+    <node concept="3EZMnI" id="4BgGGcIso1W" role="2wV5jI">
+      <node concept="3F0A7n" id="4BgGGcIso29" role="3EZMnx">
+        <ref role="1NtTu8" to="38xb:4BgGGcIsjkp" resolve="type" />
+      </node>
+      <node concept="3F0ifn" id="4BgGGcIso2i" role="3EZMnx">
+        <property role="3F0ifm" value=":" />
+      </node>
+      <node concept="3F0A7n" id="4BgGGcIso2v" role="3EZMnx">
+        <ref role="1NtTu8" to="38xb:1C_i6$JV$i6" resolve="name" />
+      </node>
+      <node concept="2iRfu4" id="4BgGGcIso1Z" role="2iSdaV" />
     </node>
   </node>
 </model>

@@ -137,7 +137,7 @@
   </node>
   <node concept="Az7Fb" id="2ez3KZG9rUS">
     <property role="TrG5h" value="AlphaChars" />
-    <property role="FLfZY" value="([A-Za-z])" />
+    <property role="FLfZY" value="([A-Za-z])*" />
     <property role="3GE5qa" value="Skeleton.constrainedString" />
   </node>
   <node concept="Az7Fb" id="2ez3KZG9rVG">
@@ -215,6 +215,7 @@
     <property role="3GE5qa" value="Skeleton" />
     <property role="TrG5h" value="DTO" />
     <property role="34LRSv" value="dto" />
+    <property role="R4oN_" value="Data transfer object" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="2ez3KZGccHd" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -309,15 +310,6 @@
       <property role="1uS6qv" value="bool" />
     </node>
   </node>
-  <node concept="1TIwiD" id="3n0qbxPn36Q">
-    <property role="3GE5qa" value="Skeleton" />
-    <property role="TrG5h" value="PrimitiveField" />
-    <ref role="1TJDcQ" node="1C_i6$JV$hB" resolve="DTOField" />
-    <node concept="1TJgyi" id="3n0qbxPn3mQ" role="1TKVEl">
-      <property role="TrG5h" value="type" />
-      <ref role="AX2Wp" node="2ez3KZGcBkZ" resolve="PrimitiveDatatype" />
-    </node>
-  </node>
   <node concept="1TIwiD" id="1C_i6$JUV0O">
     <property role="3GE5qa" value="Skeleton" />
     <property role="TrG5h" value="DTOReference" />
@@ -367,16 +359,15 @@
   <node concept="1TIwiD" id="1C_i6$JV$hB">
     <property role="3GE5qa" value="Skeleton" />
     <property role="TrG5h" value="DTOField" />
-    <property role="R5$K7" value="true" />
+    <property role="R5$K7" value="false" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="1C_i6$JV$i6" role="1TKVEl">
       <property role="TrG5h" value="name" />
       <ref role="AX2Wp" node="1C_i6$JVwXz" resolve="JavaVariable" />
     </node>
-    <node concept="1TJgyj" id="7DgqHcMcThp" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="pf" />
-      <ref role="20lvS9" node="3n0qbxPn36Q" resolve="PrimitiveField" />
+    <node concept="1TJgyi" id="4BgGGcIsjkp" role="1TKVEl">
+      <property role="TrG5h" value="type" />
+      <ref role="AX2Wp" node="2ez3KZGcBkZ" resolve="PrimitiveDatatype" />
     </node>
   </node>
   <node concept="Az7Fb" id="rvPYZpgq2O">

@@ -10,16 +10,18 @@
     <language id="f4aa25f0-e510-4232-b00d-f5a6a39c2ec9" name="de.fhb.RESTGen">
       <concept id="1883991635737330791" name="de.fhb.RESTGen.structure.DTOField" flags="ng" index="PMKKe">
         <property id="1883991635737330822" name="name" index="PMKNJ" />
+        <property id="5318947711292093721" name="type" index="1BCovq" />
       </concept>
       <concept id="1883991635737161780" name="de.fhb.RESTGen.structure.DTOReference" flags="ng" index="PNJxt">
         <reference id="1883991635737239371" name="dto" index="PMpsy" />
       </concept>
-      <concept id="3873210820990874038" name="de.fhb.RESTGen.structure.PrimitiveField" flags="ng" index="10B5$e">
-        <property id="3873210820990875062" name="type" index="10B5Oe" />
-      </concept>
       <concept id="2567912773591873980" name="de.fhb.RESTGen.structure.SpringSettings" flags="ng" index="3fwFqN">
+        <property id="3873210820990924732" name="groupID" index="10B9W4" />
+        <property id="3873210820990924747" name="artifactID" index="10B9XN" />
         <property id="2567912773591920168" name="host" index="3fwm4B" />
         <property id="2567912773591920176" name="description" index="3fwm4Z" />
+        <property id="2567912773591920206" name="baseName" index="3fwm51" />
+        <property id="2567912773591920243" name="version" index="3fwm5W" />
         <child id="2567912773592282003" name="dependencies" index="3fxfMs" />
       </concept>
       <concept id="2567912773592281895" name="de.fhb.RESTGen.structure.Dependency" flags="ng" index="3fxfKC">
@@ -34,7 +36,7 @@
       </concept>
       <concept id="2567912773592890344" name="de.fhb.RESTGen.structure.Request" flags="ng" index="3f$zjB">
         <property id="2567912773592995432" name="endpoint" index="3f$t_B" />
-        <property id="2567912773592890600" name="type" index="3f$zfB" />
+        <child id="2567912773592890650" name="response" index="3f$z8l" />
         <child id="2567912773592890647" name="request" index="3f$z8o" />
       </concept>
       <concept id="2567912773592861330" name="de.fhb.RESTGen.structure.DTO" flags="ng" index="3f$Wmt">
@@ -42,54 +44,48 @@
         <child id="2567912773592861517" name="fields" index="3f$Wh2" />
       </concept>
     </language>
-    <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
-      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
-        <property id="1169194664001" name="name" index="TrG5h" />
-      </concept>
-    </language>
   </registry>
   <node concept="3fz0xA" id="2ez3KZGbTUW">
-    <node concept="3f$zjB" id="6s_9$vOsQKD" role="3f$z92">
-      <property role="3f$t_B" value="/test" />
-      <property role="3f$zfB" value="delete" />
-      <node concept="PNJxt" id="6s_9$vOsQKE" role="3f$z8o">
-        <ref role="PMpsy" node="6s_9$vOrcrQ" />
+    <node concept="3f$zjB" id="1P0XSn1cs8T" role="3f$z92">
+      <property role="3f$t_B" value="/users" />
+      <node concept="PNJxt" id="1P0XSn1cw2P" role="3f$z8o">
+        <ref role="PMpsy" node="4BgGGcIsYCS" />
+      </node>
+      <node concept="PNJxt" id="1P0XSn1cw3a" role="3f$z8l">
+        <ref role="PMpsy" node="1P0XSn1cw30" />
+      </node>
+    </node>
+    <node concept="3f$Wmt" id="4BgGGcIsYCS" role="3f$ZKt">
+      <property role="2jj2gL" value="Test" />
+      <node concept="PMKKe" id="4BgGGcIsYCT" role="3f$Wh2">
+        <property role="PMKNJ" value="basti" />
+      </node>
+      <node concept="PMKKe" id="4BgGGcIsYCY" role="3f$Wh2">
+        <property role="1BCovq" value="short" />
+        <property role="PMKNJ" value="rico" />
+      </node>
+    </node>
+    <node concept="3f$Wmt" id="1P0XSn1cw30" role="3f$ZKt">
+      <property role="2jj2gL" value="Response" />
+      <node concept="PMKKe" id="1P0XSn1cw37" role="3f$Wh2">
+        <property role="PMKNJ" value="message" />
+      </node>
+      <node concept="PMKKe" id="1P0XSn1cw31" role="3f$Wh2">
+        <property role="PMKNJ" value="statusCode" />
+        <property role="1BCovq" value="int" />
       </node>
     </node>
     <node concept="3fwFqN" id="2ez3KZGbVfG" role="3fz0zI">
       <property role="3fwm4Z" value="+" />
-      <property role="3fwm4B" value="https:" />
+      <property role="3fwm4B" value="https://" />
+      <property role="10B9W4" value="de.fhb" />
+      <property role="10B9XN" value="rest" />
+      <property role="3fwm5W" value="1" />
+      <property role="3fwm51" value="Root" />
       <node concept="3fxfKC" id="rvPYZpfP4D" role="3fxfMs">
         <property role="3fz0as" value="d.d.d" />
         <property role="3fz0an" value="fdad4-sasd" />
         <property role="3fz0ag" value="1.0.0.redha" />
-      </node>
-    </node>
-    <node concept="3f$Wmt" id="6s_9$vOqfSr" role="3f$ZKt">
-      <property role="TrG5h" value="d" />
-      <property role="2jj2gL" value="User" />
-      <node concept="10B5$e" id="7DgqHcMcIgK" role="3f$Wh2">
-        <property role="PMKNJ" value="test" />
-        <property role="10B5Oe" value="String" />
-      </node>
-      <node concept="10B5$e" id="6s_9$vOrcrh" role="3f$Wh2">
-        <property role="PMKNJ" value="name" />
-        <property role="10B5Oe" value="String" />
-      </node>
-      <node concept="10B5$e" id="6s_9$vOrcrp" role="3f$Wh2">
-        <property role="10B5Oe" value="String" />
-        <property role="PMKNJ" value="email" />
-      </node>
-    </node>
-    <node concept="3f$Wmt" id="6s_9$vOrcrQ" role="3f$ZKt">
-      <property role="2jj2gL" value="Response" />
-      <node concept="10B5$e" id="6s_9$vOrcs2" role="3f$Wh2">
-        <property role="PMKNJ" value="message" />
-        <property role="10B5Oe" value="double" />
-      </node>
-      <node concept="10B5$e" id="6s_9$vOrcsb" role="3f$Wh2">
-        <property role="10B5Oe" value="int" />
-        <property role="PMKNJ" value="statusCode" />
       </node>
     </node>
   </node>
