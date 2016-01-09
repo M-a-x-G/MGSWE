@@ -52,7 +52,7 @@
     </language>
   </registry>
   <node concept="1TIwiD" id="2ez3KZG8rAW">
-    <property role="TrG5h" value="SpringSettings" />
+    <property role="TrG5h" value="BuildSettings" />
     <property role="34LRSv" value="settings" />
     <property role="R4oN_" value="settings for spring project" />
     <property role="3GE5qa" value="Skeleton" />
@@ -179,7 +179,7 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="settings" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="2ez3KZG8rAW" resolve="SpringSettings" />
+      <ref role="20lvS9" node="2ez3KZG8rAW" resolve="BuildSettings" />
     </node>
     <node concept="1TJgyj" id="2ez3KZGcfci" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
