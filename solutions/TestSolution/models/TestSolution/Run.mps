@@ -15,7 +15,7 @@
       <concept id="1883991635737161780" name="de.fhb.RESTGen.structure.DTOReference" flags="ng" index="PNJxt">
         <reference id="1883991635737239371" name="dto" index="PMpsy" />
       </concept>
-      <concept id="2567912773591873980" name="de.fhb.RESTGen.structure.SpringSettings" flags="ng" index="3fwFqN">
+      <concept id="2567912773591873980" name="de.fhb.RESTGen.structure.BuildSettings" flags="ng" index="3fwFqN">
         <property id="3873210820990924732" name="groupID" index="10B9W4" />
         <property id="3873210820990924747" name="artifactID" index="10B9XN" />
         <property id="2567912773591920168" name="host" index="3fwm4B" />
@@ -76,8 +76,8 @@
       </node>
     </node>
     <node concept="3fwFqN" id="2ez3KZGbVfG" role="3fz0zI">
-      <property role="3fwm4Z" value="+" />
-      <property role="3fwm4B" value="https://" />
+      <property role="3fwm4Z" value="Awesome test Projekt" />
+      <property role="3fwm4B" value="https://endpoint.de" />
       <property role="10B9W4" value="de.fhb" />
       <property role="10B9XN" value="rest" />
       <property role="3fwm5W" value="1" />

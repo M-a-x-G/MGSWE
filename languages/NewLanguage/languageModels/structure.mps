@@ -257,28 +257,28 @@
     <property role="TrG5h" value="RequestType" />
     <ref role="M4eZT" to="tpck:fKAOsGN" resolve="string" />
     <node concept="M4N5e" id="2ez3KZGcjK5" role="M5hS2">
-      <property role="1uS6qv" value="get" />
       <property role="1uS6qo" value="get" />
+      <property role="1uS6qv" value="GET" />
     </node>
     <node concept="M4N5e" id="2ez3KZGcjKx" role="M5hS2">
       <property role="1uS6qo" value="post" />
-      <property role="1uS6qv" value="post" />
+      <property role="1uS6qv" value="POST" />
     </node>
     <node concept="M4N5e" id="2ez3KZGcjKA" role="M5hS2">
       <property role="1uS6qo" value="put" />
-      <property role="1uS6qv" value="put" />
+      <property role="1uS6qv" value="PUT" />
     </node>
     <node concept="M4N5e" id="2ez3KZGcjKH" role="M5hS2">
       <property role="1uS6qo" value="delete" />
-      <property role="1uS6qv" value="delete" />
+      <property role="1uS6qv" value="DELETE" />
     </node>
     <node concept="M4N5e" id="2ez3KZGcjKQ" role="M5hS2">
       <property role="1uS6qo" value="head" />
-      <property role="1uS6qv" value="head" />
+      <property role="1uS6qv" value="HEAD" />
     </node>
     <node concept="M4N5e" id="2ez3KZGcjMK" role="M5hS2">
       <property role="1uS6qo" value="options" />
-      <property role="1uS6qv" value="options" />
+      <property role="1uS6qv" value="OPTIONS" />
     </node>
   </node>
   <node concept="AxPO7" id="2ez3KZGcBkZ">
