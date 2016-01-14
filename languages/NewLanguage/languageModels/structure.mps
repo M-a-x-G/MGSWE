@@ -2,7 +2,7 @@
 <model ref="r:f0eb351a-c060-432e-9f71-bfab75273570(de.fhb.RESTGen.structure)">
   <persistence version="9" />
   <languages>
-    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="-1" />
+    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="1" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -11,6 +11,7 @@
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
       <concept id="1082978164219" name="jetbrains.mps.lang.structure.structure.EnumerationDataTypeDeclaration" flags="ng" index="AxPO7">
+        <property id="1197591154882" name="memberIdentifierPolicy" index="3lZH7k" />
         <reference id="1083171729157" name="memberDataType" index="M4eZT" />
         <child id="1083172003582" name="member" index="M5hS2" />
       </concept>
@@ -25,6 +26,7 @@
         <property id="4628067390765907488" name="conceptShortDescription" index="R4oN_" />
         <property id="4628067390765956802" name="abstract" index="R5$K7" />
         <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
+        <property id="1587916991969465369" name="conceptId" index="1pbfSe" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
         <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
       </concept>
@@ -56,10 +58,11 @@
     <property role="34LRSv" value="settings" />
     <property role="R4oN_" value="settings for spring project" />
     <property role="3GE5qa" value="Skeleton" />
+    <property role="1pbfSe" value="264554699" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="2ez3KZG8ASC" role="1TKVEl">
-      <property role="TrG5h" value="host" />
-      <ref role="AX2Wp" node="1C_i6$JVx08" resolve="Url" />
+      <property role="TrG5h" value="dbName" />
+      <ref role="AX2Wp" node="2ez3KZG9rUS" resolve="AlphaChars" />
     </node>
     <node concept="1TJgyi" id="2ez3KZG8ASK" role="1TKVEl">
       <property role="TrG5h" value="description" />
@@ -153,6 +156,7 @@
   <node concept="1TIwiD" id="2ez3KZG9ZcB">
     <property role="TrG5h" value="Dependency" />
     <property role="3GE5qa" value="Skeleton" />
+    <property role="1pbfSe" value="264962614" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="2ez3KZGbKQg" role="1TKVEl">
       <property role="TrG5h" value="type" />
@@ -174,6 +178,7 @@
   <node concept="1TIwiD" id="2ez3KZGbKtD">
     <property role="TrG5h" value="Script" />
     <property role="19KtqR" value="true" />
+    <property role="1pbfSe" value="265426552" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="2ez3KZGbKvx" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -185,13 +190,7 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="dtos" />
       <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" node="2ez3KZGccEi" resolve="DTO" />
-    </node>
-    <node concept="1TJgyj" id="2ez3KZGcjPd" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="requests" />
-      <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" node="2ez3KZGcjJC" resolve="Request" />
+      <ref role="20lvS9" node="2ez3KZGccEi" resolve="ModelDTO" />
     </node>
   </node>
   <node concept="AxPO7" id="2ez3KZGbKPB">
@@ -213,9 +212,10 @@
   </node>
   <node concept="1TIwiD" id="2ez3KZGccEi">
     <property role="3GE5qa" value="Skeleton" />
-    <property role="TrG5h" value="DTO" />
-    <property role="34LRSv" value="dto" />
-    <property role="R4oN_" value="Data transfer object" />
+    <property role="TrG5h" value="ModelDTO" />
+    <property role="34LRSv" value="modelDTO" />
+    <property role="R4oN_" value="Model or DTO or Both" />
+    <property role="1pbfSe" value="265542049" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="2ez3KZGccHd" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -223,14 +223,29 @@
       <property role="20lbJX" value="1..n" />
       <ref role="20lvS9" node="1C_i6$JV$hB" resolve="DTOField" />
     </node>
+    <node concept="1TJgyj" id="5oI350sEETN" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="crudMethods" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="5DXP_PWNjZr" resolve="CrudMethod" />
+    </node>
     <node concept="1TJgyi" id="6s_9$vOqg9Q" role="1TKVEl">
       <property role="TrG5h" value="name" />
       <ref role="AX2Wp" node="1C_i6$JVwSw" resolve="JavaClassName" />
+    </node>
+    <node concept="1TJgyi" id="5DXP_PWNmZF" role="1TKVEl">
+      <property role="TrG5h" value="type" />
+      <ref role="AX2Wp" node="5DXP_PWNn5l" resolve="ModelDTOType" />
+    </node>
+    <node concept="1TJgyi" id="7BwPRs1Snk2" role="1TKVEl">
+      <property role="TrG5h" value="test" />
+      <ref role="AX2Wp" node="5DXP_PWNj4k" resolve="CrudMethodType" />
     </node>
   </node>
   <node concept="1TIwiD" id="2ez3KZGcjJC">
     <property role="3GE5qa" value="Skeleton" />
     <property role="TrG5h" value="Request" />
+    <property role="1pbfSe" value="265571063" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="2ez3KZGcjNC" role="1TKVEl">
       <property role="TrG5h" value="type" />
@@ -313,12 +328,13 @@
   <node concept="1TIwiD" id="1C_i6$JUV0O">
     <property role="3GE5qa" value="Skeleton" />
     <property role="TrG5h" value="DTOReference" />
+    <property role="1pbfSe" value="1242626205" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="1C_i6$JVdXb" role="1TKVEi">
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="dto" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="2ez3KZGccEi" resolve="DTO" />
+      <ref role="20lvS9" node="2ez3KZGccEi" resolve="ModelDTO" />
     </node>
   </node>
   <node concept="Az7Fb" id="1C_i6$JVwSw">
@@ -360,6 +376,7 @@
     <property role="3GE5qa" value="Skeleton" />
     <property role="TrG5h" value="DTOField" />
     <property role="R5$K7" value="false" />
+    <property role="1pbfSe" value="1242795216" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="1C_i6$JV$i6" role="1TKVEl">
       <property role="TrG5h" value="name" />
@@ -374,6 +391,55 @@
     <property role="3GE5qa" value="Skeleton.constrainedString" />
     <property role="TrG5h" value="EndpointPath" />
     <property role="FLfZY" value="^(\\/|\\/\\/)[\\w\\-]+(\\/?[\\w\\-]+)*$" />
+  </node>
+  <node concept="AxPO7" id="5DXP_PWNj4k">
+    <property role="3GE5qa" value="Skeleton.enums" />
+    <property role="TrG5h" value="CrudMethodType" />
+    <property role="3lZH7k" value="derive_from_internal_value" />
+    <ref role="M4eZT" to="tpck:fKAOsGN" resolve="string" />
+    <node concept="M4N5e" id="5DXP_PWNj4l" role="M5hS2">
+      <property role="1uS6qo" value="Create" />
+      <property role="1uS6qv" value="create" />
+    </node>
+    <node concept="M4N5e" id="5DXP_PWNj4G" role="M5hS2">
+      <property role="1uS6qo" value="Read" />
+      <property role="1uS6qv" value="read" />
+    </node>
+    <node concept="M4N5e" id="5DXP_PWNj4v" role="M5hS2">
+      <property role="1uS6qo" value="Update" />
+      <property role="1uS6qv" value="update" />
+    </node>
+    <node concept="M4N5e" id="5DXP_PWNj4C" role="M5hS2">
+      <property role="1uS6qo" value="Delete" />
+      <property role="1uS6qv" value="delete" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="5DXP_PWNjZr">
+    <property role="3GE5qa" value="Skeleton" />
+    <property role="TrG5h" value="CrudMethod" />
+    <property role="1pbfSe" value="682944968" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="5DXP_PWNkeD" role="1TKVEl">
+      <property role="TrG5h" value="type" />
+      <ref role="AX2Wp" node="5DXP_PWNj4k" resolve="CrudMethodType" />
+    </node>
+  </node>
+  <node concept="AxPO7" id="5DXP_PWNn5l">
+    <property role="3GE5qa" value="Skeleton.enums" />
+    <property role="TrG5h" value="ModelDTOType" />
+    <ref role="M4eZT" to="tpck:fKAQMTA" resolve="integer" />
+    <node concept="M4N5e" id="5DXP_PWNn5m" role="M5hS2">
+      <property role="1uS6qv" value="1" />
+      <property role="1uS6qo" value="ModelAndDTO" />
+    </node>
+    <node concept="M4N5e" id="5DXP_PWNn5n" role="M5hS2">
+      <property role="1uS6qv" value="2" />
+      <property role="1uS6qo" value="DTO" />
+    </node>
+    <node concept="M4N5e" id="5DXP_PWNn5q" role="M5hS2">
+      <property role="1uS6qv" value="3" />
+      <property role="1uS6qo" value="Model" />
+    </node>
   </node>
 </model>
 

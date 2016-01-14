@@ -7,7 +7,7 @@
   </languages>
   <imports>
     <import index="38xb" ref="r:f0eb351a-c060-432e-9f71-bfab75273570(de.fhb.RESTGen.structure)" implicit="true" />
-    <import index="e2lb" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" implicit="true" />
+    <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -160,7 +160,7 @@
           <property role="TrG5h" value="defs" />
           <node concept="A3Dl8" id="3n0qbxPnrsZ" role="1tU5fm">
             <node concept="3Tqbb2" id="3n0qbxPnrus" role="A3Ik2">
-              <ref role="ehGHo" to="38xb:2ez3KZGccEi" resolve="DTO" />
+              <ref role="ehGHo" to="38xb:2ez3KZGccEi" resolve="ModelDTO" />
             </node>
           </node>
         </node>
@@ -195,7 +195,7 @@
               <node concept="2Rf3mk" id="3n0qbxPntEr" role="2OqNvi">
                 <node concept="1xMEDy" id="3n0qbxPntEt" role="1xVPHs">
                   <node concept="chp4Y" id="3n0qbxPntFC" role="ri$Ld">
-                    <ref role="cht4Q" to="38xb:2ez3KZGccEi" resolve="DTO" />
+                    <ref role="cht4Q" to="38xb:2ez3KZGccEi" resolve="ModelDTO" />
                   </node>
                 </node>
               </node>
@@ -214,7 +214,7 @@
                         </node>
                       </node>
                       <node concept="liA8E" id="3n0qbxPnxAh" role="2OqNvi">
-                        <ref role="37wK5l" to="e2lb:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                        <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
                         <node concept="2OqwBi" id="3n0qbxPnxI_" role="37wK5m">
                           <node concept="37vLTw" id="3n0qbxPnxDU" role="2Oq$k0">
                             <ref role="3cqZAo" node="3n0qbxPnwfP" resolve="it" />
@@ -265,7 +265,7 @@
     </node>
     <node concept="1YaCAy" id="3n0qbxPnq5n" role="1YuTPh">
       <property role="TrG5h" value="dto" />
-      <ref role="1YaFvo" to="38xb:2ez3KZGccEi" resolve="DTO" />
+      <ref role="1YaFvo" to="38xb:2ez3KZGccEi" resolve="ModelDTO" />
     </node>
   </node>
   <node concept="18kY7G" id="2XJ9bmToEo8">
@@ -349,7 +349,7 @@
                             </node>
                           </node>
                           <node concept="liA8E" id="2XJ9bmToRxs" role="2OqNvi">
-                            <ref role="37wK5l" to="e2lb:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                            <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
                             <node concept="2OqwBi" id="2XJ9bmToRHG" role="37wK5m">
                               <node concept="37vLTw" id="2XJ9bmToR__" role="2Oq$k0">
                                 <ref role="3cqZAo" node="2XJ9bmToNbI" resolve="it" />
@@ -370,7 +370,7 @@
                             </node>
                           </node>
                           <node concept="liA8E" id="2XJ9bmToOAf" role="2OqNvi">
-                            <ref role="37wK5l" to="e2lb:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                            <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
                             <node concept="2OqwBi" id="2XJ9bmToOKL" role="37wK5m">
                               <node concept="37vLTw" id="2XJ9bmToODx" role="2Oq$k0">
                                 <ref role="3cqZAo" node="2XJ9bmToNbI" resolve="it" />
@@ -425,6 +425,124 @@
     <node concept="1YaCAy" id="2XJ9bmToEob" role="1YuTPh">
       <property role="TrG5h" value="request" />
       <ref role="1YaFvo" to="38xb:2ez3KZGcjJC" resolve="Request" />
+    </node>
+  </node>
+  <node concept="18kY7G" id="5DXP_PWNpmH">
+    <property role="TrG5h" value="check_CrudMethod" />
+    <property role="3GE5qa" value="Skeleton" />
+    <node concept="3clFbS" id="5DXP_PWNpmI" role="18ibNy">
+      <node concept="3cpWs8" id="5DXP_PWNqDc" role="3cqZAp">
+        <node concept="3cpWsn" id="5DXP_PWNqDf" role="3cpWs9">
+          <property role="TrG5h" value="defs" />
+          <node concept="A3Dl8" id="5DXP_PWNqDa" role="1tU5fm">
+            <node concept="3Tqbb2" id="5DXP_PWNqEL" role="A3Ik2">
+              <ref role="ehGHo" to="38xb:5DXP_PWNjZr" resolve="CrudMethod" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3cpWs8" id="5DXP_PWNqKL" role="3cqZAp">
+        <node concept="3cpWsn" id="5DXP_PWNqKO" role="3cpWs9">
+          <property role="TrG5h" value="parentNode" />
+          <node concept="3Tqbb2" id="5DXP_PWNqKJ" role="1tU5fm">
+            <ref role="ehGHo" to="38xb:2ez3KZGccEi" resolve="ModelDTO" />
+          </node>
+          <node concept="2OqwBi" id="5DXP_PWNrxH" role="33vP2m">
+            <node concept="1YBJjd" id="5DXP_PWNqPH" role="2Oq$k0">
+              <ref role="1YBMHb" node="5DXP_PWNpmK" resolve="crudMethod" />
+            </node>
+            <node concept="2Xjw5R" id="5DXP_PWNrLU" role="2OqNvi">
+              <node concept="1xMEDy" id="5DXP_PWNrLW" role="1xVPHs">
+                <node concept="chp4Y" id="5DXP_PWNrNS" role="ri$Ld">
+                  <ref role="cht4Q" to="38xb:2ez3KZGccEi" resolve="ModelDTO" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbF" id="5DXP_PWNrQs" role="3cqZAp">
+        <node concept="37vLTI" id="5DXP_PWNsJW" role="3clFbG">
+          <node concept="2OqwBi" id="5DXP_PWNt_B" role="37vLTx">
+            <node concept="2OqwBi" id="5DXP_PWNsQ0" role="2Oq$k0">
+              <node concept="37vLTw" id="5DXP_PWNsK_" role="2Oq$k0">
+                <ref role="3cqZAo" node="5DXP_PWNqKO" resolve="parentNode" />
+              </node>
+              <node concept="2Rf3mk" id="5DXP_PWNt4a" role="2OqNvi">
+                <node concept="1xMEDy" id="5DXP_PWNt4c" role="1xVPHs">
+                  <node concept="chp4Y" id="5DXP_PWNt6Q" role="ri$Ld">
+                    <ref role="cht4Q" to="38xb:5DXP_PWNjZr" resolve="CrudMethod" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3zZkjj" id="5DXP_PWNwSX" role="2OqNvi">
+              <node concept="1bVj0M" id="5DXP_PWNwSZ" role="23t8la">
+                <node concept="3clFbS" id="5DXP_PWNwT0" role="1bW5cS">
+                  <node concept="3clFbF" id="5DXP_PWNwXG" role="3cqZAp">
+                    <node concept="2OqwBi" id="5oI350sFPs_" role="3clFbG">
+                      <node concept="2OqwBi" id="5oI350sFOWt" role="2Oq$k0">
+                        <node concept="1YBJjd" id="5oI350sFOQl" role="2Oq$k0">
+                          <ref role="1YBMHb" node="5DXP_PWNpmK" resolve="crudMethod" />
+                        </node>
+                        <node concept="3TrcHB" id="5oI350sFP52" role="2OqNvi">
+                          <ref role="3TsBF5" to="38xb:5DXP_PWNkeD" resolve="type" />
+                        </node>
+                      </node>
+                      <node concept="liA8E" id="5oI350sFPDY" role="2OqNvi">
+                        <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                        <node concept="2OqwBi" id="5oI350sFPNN" role="37wK5m">
+                          <node concept="37vLTw" id="5oI350sFPHN" role="2Oq$k0">
+                            <ref role="3cqZAo" node="5DXP_PWNwT1" resolve="it" />
+                          </node>
+                          <node concept="3TrcHB" id="5oI350sFPWF" role="2OqNvi">
+                            <ref role="3TsBF5" to="38xb:5DXP_PWNkeD" resolve="type" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="Rh6nW" id="5DXP_PWNwT1" role="1bW2Oz">
+                  <property role="TrG5h" value="it" />
+                  <node concept="2jxLKc" id="5DXP_PWNwT2" role="1tU5fm" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="37vLTw" id="5DXP_PWNrQq" role="37vLTJ">
+            <ref role="3cqZAo" node="5DXP_PWNqDf" resolve="defs" />
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbJ" id="5DXP_PWNyoj" role="3cqZAp">
+        <node concept="3clFbS" id="5DXP_PWNyol" role="3clFbx">
+          <node concept="2MkqsV" id="5DXP_PWNzWV" role="3cqZAp">
+            <node concept="Xl_RD" id="5DXP_PWNzYY" role="2MkJ7o">
+              <property role="Xl_RC" value="Generate dublicated crud methods makes no sense." />
+            </node>
+            <node concept="1YBJjd" id="5DXP_PWN$0X" role="2OEOjV">
+              <ref role="1YBMHb" node="5DXP_PWNpmK" resolve="crudMethod" />
+            </node>
+          </node>
+        </node>
+        <node concept="3eOSWO" id="5DXP_PWNzVe" role="3clFbw">
+          <node concept="2OqwBi" id="5DXP_PWNyYX" role="3uHU7B">
+            <node concept="37vLTw" id="5DXP_PWNysc" role="2Oq$k0">
+              <ref role="3cqZAo" node="5DXP_PWNqDf" resolve="defs" />
+            </node>
+            <node concept="34oBXx" id="5DXP_PWNzzS" role="2OqNvi" />
+          </node>
+          <node concept="3cmrfG" id="5DXP_PWNzSQ" role="3uHU7w">
+            <property role="3cmrfH" value="1" />
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbH" id="5DXP_PWN_8E" role="3cqZAp" />
+    </node>
+    <node concept="1YaCAy" id="5DXP_PWNpmK" role="1YuTPh">
+      <property role="TrG5h" value="crudMethod" />
+      <ref role="1YaFvo" to="38xb:5DXP_PWNjZr" resolve="CrudMethod" />
     </node>
   </node>
 </model>

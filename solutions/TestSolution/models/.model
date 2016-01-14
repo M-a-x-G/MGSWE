@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model ref="r:083f067a-7c46-4a48-a600-e34b175c4330(de.fhb.TestSolution.run)" content="header">
+  <persistence version="9" />
+  <attribute name="content" value="header" />
+  <languages>
+    <use id="f4aa25f0-e510-4232-b00d-f5a6a39c2ec9" name="de.fhb.RESTGen" version="-1" />
+  </languages>
+  <imports />
+</model>
+

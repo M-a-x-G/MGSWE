@@ -3,8 +3,8 @@
   <persistence version="9" />
   <languages>
     <use id="3f4bc5f5-c6c1-4a28-8b10-c83066ffa4a1" name="jetbrains.mps.lang.constraints" version="-1" />
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="1" />
     <use id="d8f591ec-4d86-4af2-9f92-a9e93c803ffa" name="jetbrains.mps.lang.scopes" version="0" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="4" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -52,7 +52,7 @@
   </registry>
   <node concept="1M2fIO" id="3n0qbxPnk64">
     <property role="3GE5qa" value="Skeleton" />
-    <ref role="1M2myG" to="38xb:2ez3KZGccEi" resolve="DTO" />
+    <ref role="1M2myG" to="38xb:2ez3KZGccEi" resolve="ModelDTO" />
     <node concept="nKS2y" id="3n0qbxPnk68" role="1MLUbF">
       <node concept="3clFbS" id="3n0qbxPnk69" role="2VODD2">
         <node concept="3clFbF" id="3n0qbxPnoOK" role="3cqZAp">
