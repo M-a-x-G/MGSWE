@@ -147,7 +147,7 @@
           <node concept="10Nm6u" id="3n0qbxPnrqX" role="3uHU7w" />
           <node concept="2OqwBi" id="3n0qbxPnr7j" role="3uHU7B">
             <node concept="1YBJjd" id="3n0qbxPnqrt" role="2Oq$k0">
-              <ref role="1YBMHb" node="3n0qbxPnq5n" resolve="dto" />
+              <ref role="1YBMHb" node="3n0qbxPnq5n" resolve="modelDto" />
             </node>
             <node concept="3TrcHB" id="6s_9$vOqtxQ" role="2OqNvi">
               <ref role="3TsBF5" to="38xb:6s_9$vOqg9Q" resolve="name" />
@@ -173,7 +173,7 @@
           </node>
           <node concept="2OqwBi" id="3n0qbxPnrCf" role="33vP2m">
             <node concept="1YBJjd" id="3n0qbxPnr_x" role="2Oq$k0">
-              <ref role="1YBMHb" node="3n0qbxPnq5n" resolve="dto" />
+              <ref role="1YBMHb" node="3n0qbxPnq5n" resolve="modelDto" />
             </node>
             <node concept="2Xjw5R" id="3n0qbxPnrVq" role="2OqNvi">
               <node concept="1xMEDy" id="3n0qbxPnrVs" role="1xVPHs">
@@ -207,7 +207,7 @@
                     <node concept="2OqwBi" id="3n0qbxPnwRb" role="3clFbG">
                       <node concept="2OqwBi" id="3n0qbxPnwmA" role="2Oq$k0">
                         <node concept="1YBJjd" id="3n0qbxPnwiI" role="2Oq$k0">
-                          <ref role="1YBMHb" node="3n0qbxPnq5n" resolve="dto" />
+                          <ref role="1YBMHb" node="3n0qbxPnq5n" resolve="modelDto" />
                         </node>
                         <node concept="3TrcHB" id="6s_9$vOqtFw" role="2OqNvi">
                           <ref role="3TsBF5" to="38xb:6s_9$vOqg9Q" resolve="name" />
@@ -246,7 +246,7 @@
               <property role="Xl_RC" value="DTO names must be unique in a Script" />
             </node>
             <node concept="1YBJjd" id="3n0qbxPn$nR" role="2OEOjV">
-              <ref role="1YBMHb" node="3n0qbxPnq5n" resolve="dto" />
+              <ref role="1YBMHb" node="3n0qbxPnq5n" resolve="modelDto" />
             </node>
           </node>
         </node>
@@ -264,7 +264,7 @@
       </node>
     </node>
     <node concept="1YaCAy" id="3n0qbxPnq5n" role="1YuTPh">
-      <property role="TrG5h" value="dto" />
+      <property role="TrG5h" value="modelDto" />
       <ref role="1YaFvo" to="38xb:2ez3KZGccEi" resolve="ModelDTO" />
     </node>
   </node>
@@ -480,24 +480,21 @@
               <node concept="1bVj0M" id="5DXP_PWNwSZ" role="23t8la">
                 <node concept="3clFbS" id="5DXP_PWNwT0" role="1bW5cS">
                   <node concept="3clFbF" id="5DXP_PWNwXG" role="3cqZAp">
-                    <node concept="2OqwBi" id="5oI350sFPs_" role="3clFbG">
-                      <node concept="2OqwBi" id="5oI350sFOWt" role="2Oq$k0">
-                        <node concept="1YBJjd" id="5oI350sFOQl" role="2Oq$k0">
-                          <ref role="1YBMHb" node="5DXP_PWNpmK" resolve="crudMethod" />
+                    <node concept="3clFbC" id="5DXP_PWNxP3" role="3clFbG">
+                      <node concept="2OqwBi" id="5DXP_PWNxV_" role="3uHU7w">
+                        <node concept="37vLTw" id="5DXP_PWNxRA" role="2Oq$k0">
+                          <ref role="3cqZAo" node="5DXP_PWNwT1" resolve="it" />
                         </node>
-                        <node concept="3TrcHB" id="5oI350sFP52" role="2OqNvi">
+                        <node concept="3TrcHB" id="4CIkZZB_KGQ" role="2OqNvi">
                           <ref role="3TsBF5" to="38xb:5DXP_PWNkeD" resolve="type" />
                         </node>
                       </node>
-                      <node concept="liA8E" id="5oI350sFPDY" role="2OqNvi">
-                        <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
-                        <node concept="2OqwBi" id="5oI350sFPNN" role="37wK5m">
-                          <node concept="37vLTw" id="5oI350sFPHN" role="2Oq$k0">
-                            <ref role="3cqZAo" node="5DXP_PWNwT1" resolve="it" />
-                          </node>
-                          <node concept="3TrcHB" id="5oI350sFPWF" role="2OqNvi">
-                            <ref role="3TsBF5" to="38xb:5DXP_PWNkeD" resolve="type" />
-                          </node>
+                      <node concept="2OqwBi" id="5DXP_PWNx1h" role="3uHU7B">
+                        <node concept="1YBJjd" id="5DXP_PWNwXF" role="2Oq$k0">
+                          <ref role="1YBMHb" node="5DXP_PWNpmK" resolve="crudMethod" />
+                        </node>
+                        <node concept="3TrcHB" id="4CIkZZB_K_n" role="2OqNvi">
+                          <ref role="3TsBF5" to="38xb:5DXP_PWNkeD" resolve="type" />
                         </node>
                       </node>
                     </node>

@@ -18,6 +18,7 @@
         <child id="1198489993734" name="body" index="b$wch" />
       </concept>
       <concept id="1140524381322" name="jetbrains.mps.lang.editor.structure.CellModel_ListWithRole" flags="ng" index="2czfm3">
+        <property id="1140524450557" name="separatorText" index="2czwfO" />
         <child id="1140524464360" name="cellLayout" index="2czzBx" />
       </concept>
       <concept id="1106270549637" name="jetbrains.mps.lang.editor.structure.CellLayout_Horizontal" flags="nn" index="2iRfu4" />
@@ -185,6 +186,7 @@
     <node concept="b$f91" id="2ez3KZGbXQM" role="2wV5jI">
       <node concept="3F0ifn" id="2ez3KZGbXQU" role="b$u42">
         <property role="3F0ifm" value="settings" />
+        <ref role="1k5W1q" to="tpen:hgVS8CF" resolve="KeyWord" />
       </node>
       <node concept="3EZMnI" id="2ez3KZGbXR1" role="b$wch">
         <node concept="2iRkQZ" id="2ez3KZGbXR2" role="2iSdaV" />
@@ -245,21 +247,6 @@
           </node>
           <node concept="2iRfu4" id="2ez3KZGc8rS" role="2iSdaV" />
         </node>
-        <node concept="3EZMnI" id="2ez3KZGc8ue" role="3EZMnx">
-          <node concept="VPM3Z" id="2ez3KZGc8ug" role="3F10Kt">
-            <property role="VOm3f" value="false" />
-          </node>
-          <node concept="3F0ifn" id="2ez3KZGc8ui" role="3EZMnx">
-            <property role="3F0ifm" value="host" />
-          </node>
-          <node concept="3F0ifn" id="2ez3KZGc8v7" role="3EZMnx">
-            <property role="3F0ifm" value=":" />
-          </node>
-          <node concept="3F0A7n" id="2ez3KZGc8vv" role="3EZMnx">
-            <ref role="1NtTu8" to="38xb:2ez3KZG8ASC" resolve="dbName" />
-          </node>
-          <node concept="2iRfu4" id="2ez3KZGc8uj" role="2iSdaV" />
-        </node>
         <node concept="3EZMnI" id="2ez3KZGc8x7" role="3EZMnx">
           <node concept="VPM3Z" id="2ez3KZGc8x9" role="3F10Kt">
             <property role="VOm3f" value="false" />
@@ -316,6 +303,7 @@
     <property role="3GE5qa" value="Skeleton" />
     <ref role="1XX52x" to="38xb:2ez3KZGccEi" resolve="ModelDTO" />
     <node concept="3EZMnI" id="3n0qbxPn79H" role="2wV5jI">
+      <node concept="3F0ifn" id="4CIkZZB_O6v" role="3EZMnx" />
       <node concept="3EZMnI" id="3n0qbxPn79X" role="3EZMnx">
         <node concept="3F0A7n" id="5DXP_PWNn5u" role="3EZMnx">
           <ref role="1NtTu8" to="38xb:5DXP_PWNmZF" resolve="type" />
@@ -344,6 +332,7 @@
           <property role="3F0ifm" value="Controller Methods: {" />
         </node>
         <node concept="3F2HdR" id="7BwPRs1SAfT" role="3EZMnx">
+          <property role="2czwfO" value="|" />
           <ref role="1NtTu8" to="38xb:5oI350sEETN" />
           <node concept="2iRfu4" id="7BwPRs1SAfW" role="2czzBx" />
           <node concept="VPM3Z" id="7BwPRs1SAfX" role="3F10Kt">

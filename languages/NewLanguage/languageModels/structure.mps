@@ -11,6 +11,7 @@
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
       <concept id="1082978164219" name="jetbrains.mps.lang.structure.structure.EnumerationDataTypeDeclaration" flags="ng" index="AxPO7">
+        <property id="1212080844762" name="hasNoDefaultMember" index="PDuV0" />
         <property id="1197591154882" name="memberIdentifierPolicy" index="3lZH7k" />
         <reference id="1083171729157" name="memberDataType" index="M4eZT" />
         <child id="1083172003582" name="member" index="M5hS2" />
@@ -60,10 +61,6 @@
     <property role="3GE5qa" value="Skeleton" />
     <property role="1pbfSe" value="264554699" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyi" id="2ez3KZG8ASC" role="1TKVEl">
-      <property role="TrG5h" value="dbName" />
-      <ref role="AX2Wp" node="2ez3KZG9rUS" resolve="AlphaChars" />
-    </node>
     <node concept="1TJgyi" id="2ez3KZG8ASK" role="1TKVEl">
       <property role="TrG5h" value="description" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
@@ -102,6 +99,7 @@
   <node concept="AxPO7" id="2ez3KZG8AV5">
     <property role="TrG5h" value="ProjectType" />
     <property role="3GE5qa" value="Skeleton.enums" />
+    <property role="3lZH7k" value="derive_from_internal_value" />
     <ref role="M4eZT" to="tpck:fKAOsGN" resolve="string" />
     <node concept="M4N5e" id="2ez3KZG8AV6" role="M5hS2">
       <property role="1uS6qv" value="spring" />
@@ -115,6 +113,7 @@
   <node concept="AxPO7" id="2ez3KZG8AVd">
     <property role="TrG5h" value="SpringPackaging" />
     <property role="3GE5qa" value="Skeleton.enums" />
+    <property role="3lZH7k" value="derive_from_internal_value" />
     <ref role="M4eZT" to="tpck:fKAOsGN" resolve="string" />
     <node concept="M4N5e" id="2ez3KZG8AVe" role="M5hS2">
       <property role="1uS6qv" value="jar" />
@@ -128,6 +127,7 @@
   <node concept="AxPO7" id="2ez3KZG8AVk">
     <property role="TrG5h" value="JavaVersion" />
     <property role="3GE5qa" value="Skeleton.enums" />
+    <property role="3lZH7k" value="derive_from_internal_value" />
     <ref role="M4eZT" to="tpck:fKAOsGN" resolve="string" />
     <node concept="M4N5e" id="2ez3KZG8AVl" role="M5hS2">
       <property role="1uS6qv" value="1.8" />
@@ -196,6 +196,7 @@
   <node concept="AxPO7" id="2ez3KZGbKPB">
     <property role="3GE5qa" value="Skeleton.enums" />
     <property role="TrG5h" value="DependencyType" />
+    <property role="3lZH7k" value="derive_from_internal_value" />
     <ref role="M4eZT" to="tpck:fKAOsGN" resolve="string" />
     <node concept="M4N5e" id="2ez3KZGbKPC" role="M5hS2">
       <property role="1uS6qo" value="compile" />
@@ -270,6 +271,7 @@
   <node concept="AxPO7" id="2ez3KZGcjK4">
     <property role="3GE5qa" value="Skeleton.enums" />
     <property role="TrG5h" value="RequestType" />
+    <property role="3lZH7k" value="derive_from_internal_value" />
     <ref role="M4eZT" to="tpck:fKAOsGN" resolve="string" />
     <node concept="M4N5e" id="2ez3KZGcjK5" role="M5hS2">
       <property role="1uS6qo" value="get" />
@@ -299,6 +301,7 @@
   <node concept="AxPO7" id="2ez3KZGcBkZ">
     <property role="3GE5qa" value="Skeleton.enums" />
     <property role="TrG5h" value="PrimitiveDatatype" />
+    <property role="3lZH7k" value="derive_from_internal_value" />
     <ref role="M4eZT" to="tpck:fKAOsGN" resolve="string" />
     <node concept="M4N5e" id="2ez3KZGcBl0" role="M5hS2">
       <property role="1uS6qv" value="String" />
@@ -322,7 +325,7 @@
     </node>
     <node concept="M4N5e" id="2ez3KZGcBlW" role="M5hS2">
       <property role="1uS6qo" value="Boolean" />
-      <property role="1uS6qv" value="bool" />
+      <property role="1uS6qv" value="boolean" />
     </node>
   </node>
   <node concept="1TIwiD" id="1C_i6$JUV0O">
@@ -396,6 +399,7 @@
     <property role="3GE5qa" value="Skeleton.enums" />
     <property role="TrG5h" value="CrudMethodType" />
     <property role="3lZH7k" value="derive_from_internal_value" />
+    <property role="PDuV0" value="true" />
     <ref role="M4eZT" to="tpck:fKAOsGN" resolve="string" />
     <node concept="M4N5e" id="5DXP_PWNj4l" role="M5hS2">
       <property role="1uS6qo" value="Create" />
@@ -427,6 +431,7 @@
   <node concept="AxPO7" id="5DXP_PWNn5l">
     <property role="3GE5qa" value="Skeleton.enums" />
     <property role="TrG5h" value="ModelDTOType" />
+    <property role="3lZH7k" value="derive_from_internal_value" />
     <ref role="M4eZT" to="tpck:fKAQMTA" resolve="integer" />
     <node concept="M4N5e" id="5DXP_PWNn5m" role="M5hS2">
       <property role="1uS6qv" value="1" />
