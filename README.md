@@ -7,10 +7,9 @@ by utilising the Meta Programming System (MPS).
 
 ## Usage
 
-1. Install [MPS](https://www.jetbrains.com/mps/download) first. After the installation, clone this respository and open it with MPS.
-2. Write a script with the restgen language and build it.
-3. Clone an build the [RESTGenParser tool](https://github.com/M-a-x-G/RESTGenParser).
-
+* Install [MPS](https://www.jetbrains.com/mps/download) first. After the installation, clone this respository and open it with MPS.
+* Write a script with the restgen language and build it.
+* Clone an build the [RESTGenParser tool](https://github.com/M-a-x-G/RESTGenParser).
 ```
 Script {
   settings {
@@ -37,7 +36,7 @@ Script {
   }
 }
 ```
-4. Open the RESTGenParser tool and select the outputfile from MPS and a folder for the outgoing project and click generate.
+* Open the RESTGenParser tool and select the outputfile from MPS and a folder for the outgoing project and click generate.
 
 ## License
 [MIT](https://github.com/M-a-x-G/MGSWE/blob/master/LICENSE)
