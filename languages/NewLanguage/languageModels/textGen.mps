@@ -3353,7 +3353,7 @@
                             </node>
                           </node>
                           <node concept="la8eA" id="2XJ9bmTpcvl" role="lcghm">
-                            <property role="lacIc" value="(@RequestBody " />
+                            <property role="lacIc" value="(@RequestParam " />
                           </node>
                           <node concept="la8eA" id="5HtekKoKAS$" role="lcghm">
                             <property role="lacIc" value="int" />
@@ -3977,6 +3977,20 @@
                       </node>
                       <node concept="l8MVK" id="5DXP_PWIfzs" role="lcghm" />
                     </node>
+                    <node concept="lc7rE" id="1xjvUO8Ocd4" role="3cqZAp">
+                      <node concept="la8eA" id="1xjvUO8Ocd5" role="lcghm">
+                        <property role="lacIc" value="out.setId(" />
+                      </node>
+                      <node concept="l9hG8" id="1xjvUO8Ocd6" role="lcghm">
+                        <node concept="37vLTw" id="1xjvUO8Oef7" role="lb14g">
+                          <ref role="3cqZAo" node="4N472TnvSd7" resolve="dtoName" />
+                        </node>
+                      </node>
+                      <node concept="la8eA" id="1xjvUO8Ocdc" role="lcghm">
+                        <property role="lacIc" value=".getId());" />
+                      </node>
+                      <node concept="l8MVK" id="1xjvUO8Ocdd" role="lcghm" />
+                    </node>
                     <node concept="2Gpval" id="4N472TnwcdD" role="3cqZAp">
                       <node concept="2GrKxI" id="4N472TnwcdF" role="2Gsz3X">
                         <property role="TrG5h" value="field" />
@@ -4229,6 +4243,30 @@
                         <property role="lacIc" value="();" />
                       </node>
                       <node concept="l8MVK" id="5DXP_PWIfyZ" role="lcghm" />
+                    </node>
+                    <node concept="lc7rE" id="1xjvUO8O7CO" role="3cqZAp">
+                      <node concept="la8eA" id="1xjvUO8O7ZW" role="lcghm">
+                        <property role="lacIc" value="out.setId(" />
+                      </node>
+                      <node concept="l9hG8" id="1xjvUO8O80z" role="lcghm">
+                        <node concept="2OqwBi" id="1xjvUO8O8YO" role="lb14g">
+                          <node concept="2OqwBi" id="1xjvUO8O82M" role="2Oq$k0">
+                            <node concept="2GrUjf" id="1xjvUO8O81d" role="2Oq$k0">
+                              <ref role="2Gs0qQ" node="4N472TnvOs6" resolve="dto" />
+                            </node>
+                            <node concept="3TrcHB" id="1xjvUO8O8vR" role="2OqNvi">
+                              <ref role="3TsBF5" to="38xb:6s_9$vOqg9Q" resolve="name" />
+                            </node>
+                          </node>
+                          <node concept="liA8E" id="1xjvUO8O9$n" role="2OqNvi">
+                            <ref role="37wK5l" to="wyt6:~String.toLowerCase():java.lang.String" resolve="toLowerCase" />
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="la8eA" id="1xjvUO8Oaqn" role="lcghm">
+                        <property role="lacIc" value=".getId());" />
+                      </node>
+                      <node concept="l8MVK" id="1xjvUO8ObgK" role="lcghm" />
                     </node>
                     <node concept="2Gpval" id="5DXP_PWI5b9" role="3cqZAp">
                       <node concept="2GrKxI" id="5DXP_PWI5ba" role="2Gsz3X">
