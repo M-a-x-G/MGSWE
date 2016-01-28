@@ -1,23 +1,43 @@
 # MGSWE
-[![Build status](https://travis-ci.org/M-a-x-G/MGSWE.svg?branch=master)](https://travis-ci.org/M-a-x-G/MGSWE) 
-[![GitHub version](https://badge.fury.io/gh/M-a-x-G%2FMGSWE.svg)](http://badge.fury.io/gh/M-a-x-G%2FMGSWE) 
-
 Modellgetriebene Softwareentwicklung (MGSWE, trnsl. Model-driven Software Development).  
 This project aims to provide a simple Domain Specific Language (DSL) for the creation of Spring-Boot REST Services 
 by utilising the Meta Programming System (MPS).
 
 
-## Installation
-
-Install [MPS](https://www.jetbrains.com/mps/download) first. After the installation, clone this respository and open it with MPS.
-
 
 ## Usage
 
-```
+1. Install [MPS](https://www.jetbrains.com/mps/download) first. After the installation, clone this respository and open it with MPS.
+2. Write a script with the restgen language and build it.
+3. Clone an build the [RESTGenParser tool](https://github.com/M-a-x-G/RESTGenParser).
 
 ```
+Script {
+  settings {
+    description: Example project
+    group: de.example
+    artifact: test
+    version: 1.0
+    base name: root
+    packaging: jar
+    java version: 1.8
+    compile -> com.google.guava : guava : 19.0
+  }
 
+  DTO ( Response ){
+    String : message
+    Integer : statusCode 
+  }
+
+  ModelAndDTO ( User ){
+    Controller Methods: {Create | Read | Update | Delete}
+    String : name
+    Integer : age
+    Boolean : active
+  }
+}
+```
+4. Open the RESTGenParser tool and select the outputfile from MPS and a folder for the outgoing project and click generate.
 
 ## License
 [MIT](https://github.com/M-a-x-G/MGSWE/blob/master/LICENSE)
