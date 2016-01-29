@@ -77,7 +77,6 @@
       <concept id="1137021947720" name="jetbrains.mps.baseLanguage.structure.ConceptFunction" flags="in" index="2VMwT0">
         <child id="1137022507850" name="body" index="2VODD2" />
       </concept>
-      <concept id="1068580123152" name="jetbrains.mps.baseLanguage.structure.EqualsExpression" flags="nn" index="3clFbC" />
       <concept id="1068580123155" name="jetbrains.mps.baseLanguage.structure.ExpressionStatement" flags="nn" index="3clFbF">
         <child id="1068580123156" name="expression" index="3clFbG" />
       </concept>
@@ -102,6 +101,7 @@
         <child id="1081773367579" name="rightExpression" index="3uHU7w" />
         <child id="1081773367580" name="leftExpression" index="3uHU7B" />
       </concept>
+      <concept id="1073239437375" name="jetbrains.mps.baseLanguage.structure.NotEqualsExpression" flags="nn" index="3y3z36" />
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
       <concept id="1138056022639" name="jetbrains.mps.lang.smodel.structure.SPropertyAccess" flags="nn" index="3TrcHB">
@@ -362,15 +362,15 @@
                   <node concept="3clFbT" id="5DXP_PWP01f" role="3cqZAk" />
                 </node>
               </node>
-              <node concept="3clFbC" id="5DXP_PWP01g" role="3clFbw">
-                <node concept="3cmrfG" id="5DXP_PWP01h" role="3uHU7w">
-                  <property role="3cmrfH" value="2" />
-                </node>
+              <node concept="3y3z36" id="5vowH3wxhZl" role="3clFbw">
                 <node concept="2OqwBi" id="5DXP_PWP01i" role="3uHU7B">
                   <node concept="pncrf" id="5DXP_PWP01j" role="2Oq$k0" />
                   <node concept="3TrcHB" id="5DXP_PWP01k" role="2OqNvi">
                     <ref role="3TsBF5" to="38xb:5DXP_PWNmZF" resolve="type" />
                   </node>
+                </node>
+                <node concept="3cmrfG" id="5vowH3wxiDP" role="3uHU7w">
+                  <property role="3cmrfH" value="1" />
                 </node>
               </node>
               <node concept="9aQIb" id="5DXP_PWP01l" role="9aQIa">

@@ -54,6 +54,7 @@
         <child id="1068580123134" name="parameter" index="3clF46" />
         <child id="1068580123135" name="body" index="3clF47" />
       </concept>
+      <concept id="1068580123152" name="jetbrains.mps.baseLanguage.structure.EqualsExpression" flags="nn" index="3clFbC" />
       <concept id="1068580123155" name="jetbrains.mps.baseLanguage.structure.ExpressionStatement" flags="nn" index="3clFbF">
         <child id="1068580123156" name="expression" index="3clFbG" />
       </concept>
@@ -285,25 +286,42 @@
                     </node>
                   </node>
                 </node>
-                <node concept="lc7rE" id="5gy6VCIZBdg" role="3cqZAp">
-                  <node concept="1bDJIP" id="5gy6VCIZBdv" role="lcghm">
-                    <ref role="1rvKf6" node="4BgGGcItviz" resolve="generateService" />
-                    <node concept="2GrUjf" id="5gy6VCIZBdC" role="1ryhcI">
-                      <ref role="2Gs0qQ" node="4BgGGcItuqf" resolve="dto" />
+                <node concept="3clFbJ" id="3DyjGuSkjf7" role="3cqZAp">
+                  <node concept="3clFbS" id="3DyjGuSkjf9" role="3clFbx">
+                    <node concept="lc7rE" id="5gy6VCIZBdg" role="3cqZAp">
+                      <node concept="1bDJIP" id="5gy6VCIZBdv" role="lcghm">
+                        <ref role="1rvKf6" node="4BgGGcItviz" resolve="generateService" />
+                        <node concept="2GrUjf" id="5gy6VCIZBdC" role="1ryhcI">
+                          <ref role="2Gs0qQ" node="4BgGGcItuqf" resolve="dto" />
+                        </node>
+                        <node concept="37vLTw" id="5gy6VCIZK3r" role="1ryhcI">
+                          <ref role="3cqZAo" node="5gy6VCIZI4S" resolve="packageName" />
+                        </node>
+                      </node>
                     </node>
-                    <node concept="37vLTw" id="5gy6VCIZK3r" role="1ryhcI">
-                      <ref role="3cqZAo" node="5gy6VCIZI4S" resolve="packageName" />
+                    <node concept="lc7rE" id="4N472TnuFVC" role="3cqZAp">
+                      <node concept="1bDJIP" id="4N472TnuFW0" role="lcghm">
+                        <ref role="1rvKf6" node="4N472TnuBK5" resolve="generateDto" />
+                        <node concept="2GrUjf" id="4N472TnuFWd" role="1ryhcI">
+                          <ref role="2Gs0qQ" node="4BgGGcItuqf" resolve="dto" />
+                        </node>
+                        <node concept="37vLTw" id="4N472TnuGqs" role="1ryhcI">
+                          <ref role="3cqZAo" node="5gy6VCIZI4S" resolve="packageName" />
+                        </node>
+                      </node>
                     </node>
                   </node>
-                </node>
-                <node concept="lc7rE" id="4N472TnuFVC" role="3cqZAp">
-                  <node concept="1bDJIP" id="4N472TnuFW0" role="lcghm">
-                    <ref role="1rvKf6" node="4N472TnuBK5" resolve="generateDto" />
-                    <node concept="2GrUjf" id="4N472TnuFWd" role="1ryhcI">
-                      <ref role="2Gs0qQ" node="4BgGGcItuqf" resolve="dto" />
+                  <node concept="3y3z36" id="3DyjGuSkjvs" role="3clFbw">
+                    <node concept="3cmrfG" id="3DyjGuSkjxV" role="3uHU7w">
+                      <property role="3cmrfH" value="3" />
                     </node>
-                    <node concept="37vLTw" id="4N472TnuGqs" role="1ryhcI">
-                      <ref role="3cqZAo" node="5gy6VCIZI4S" resolve="packageName" />
+                    <node concept="2OqwBi" id="3DyjGuSkjhk" role="3uHU7B">
+                      <node concept="2GrUjf" id="3DyjGuSkjfD" role="2Oq$k0">
+                        <ref role="2Gs0qQ" node="4BgGGcItuqf" resolve="dto" />
+                      </node>
+                      <node concept="3TrcHB" id="3DyjGuSkjov" role="2OqNvi">
+                        <ref role="3TsBF5" to="38xb:5DXP_PWNmZF" resolve="type" />
+                      </node>
                     </node>
                   </node>
                 </node>
@@ -2605,7 +2623,7 @@
                   <node concept="l8MVK" id="2XJ9bmTomnw" role="lcghm" />
                 </node>
               </node>
-              <node concept="3y3z36" id="5oI350sHrcb" role="3clFbw">
+              <node concept="3clFbC" id="3DyjGuSkjBp" role="3clFbw">
                 <node concept="2OqwBi" id="5oI350sHpei" role="3uHU7B">
                   <node concept="2GrUjf" id="5oI350sHpcL" role="2Oq$k0">
                     <ref role="2Gs0qQ" node="2XJ9bmTokIR" resolve="dto" />
@@ -2614,8 +2632,8 @@
                     <ref role="3TsBF5" to="38xb:5DXP_PWNmZF" resolve="type" />
                   </node>
                 </node>
-                <node concept="3cmrfG" id="5oI350sHpCM" role="3uHU7w">
-                  <property role="3cmrfH" value="2" />
+                <node concept="3cmrfG" id="3DyjGuSkjAK" role="3uHU7w">
+                  <property role="3cmrfH" value="1" />
                 </node>
               </node>
             </node>
@@ -2632,10 +2650,10 @@
         <node concept="3clFbH" id="2XJ9bmTpjw8" role="3cqZAp" />
         <node concept="lc7rE" id="2XJ9bmTpmeR" role="3cqZAp">
           <node concept="la8eA" id="2XJ9bmTpmG2" role="lcghm">
-            <property role="lacIc" value="import org.springframework.web.bind.annotation.RequestBody;\nimport org.springframework.web.bind.annotation.RequestMapping;" />
+            <property role="lacIc" value="import org.springframework.web.bind.annotation.RequestBody;\nimport org.springframework.web.bind.annotation.RequestMapping;\n" />
           </node>
           <node concept="la8eA" id="2XJ9bmTppXa" role="lcghm">
-            <property role="lacIc" value="import org.springframework.web.bind.annotation.RequestMethod;\nimport org.springframework.web.bind.annotation.RequestParam;\nimport org.springframework.web.bind.annotation.ResponseBody;" />
+            <property role="lacIc" value="import org.springframework.web.bind.annotation.RequestMethod;\nimport org.springframework.web.bind.annotation.PathVariable;\nimport org.springframework.web.bind.annotation.ResponseBody;\n" />
           </node>
           <node concept="la8eA" id="2XJ9bmTpsyu" role="lcghm">
             <property role="lacIc" value="import org.springframework.beans.factory.annotation.Autowired;\nimport org.springframework.http.HttpStatus;\nimport org.springframework.http.ResponseEntity;\n\nimport java.util.List;\n" />
@@ -3278,8 +3296,26 @@
                               </node>
                             </node>
                           </node>
+                          <node concept="la8eA" id="3DyjGuSkh89" role="lcghm">
+                            <property role="lacIc" value="/{" />
+                          </node>
+                          <node concept="l9hG8" id="3DyjGuSkhbA" role="lcghm">
+                            <node concept="2OqwBi" id="3DyjGuSkhT1" role="lb14g">
+                              <node concept="2OqwBi" id="3DyjGuSkhfs" role="2Oq$k0">
+                                <node concept="2GrUjf" id="3DyjGuSkhdO" role="2Oq$k0">
+                                  <ref role="2Gs0qQ" node="2XJ9bmTof04" resolve="dto" />
+                                </node>
+                                <node concept="3TrcHB" id="3DyjGuSkh$$" role="2OqNvi">
+                                  <ref role="3TsBF5" to="38xb:6s_9$vOqg9Q" resolve="name" />
+                                </node>
+                              </node>
+                              <node concept="liA8E" id="3DyjGuSkik2" role="2OqNvi">
+                                <ref role="37wK5l" to="wyt6:~String.toLowerCase():java.lang.String" resolve="toLowerCase" />
+                              </node>
+                            </node>
+                          </node>
                           <node concept="la8eA" id="2XJ9bmTophA" role="lcghm">
-                            <property role="lacIc" value="&quot;, method = RequestMethod.DELETE)" />
+                            <property role="lacIc" value="ID}&quot;, method = RequestMethod.DELETE)" />
                           </node>
                           <node concept="l8MVK" id="2XJ9bmTophB" role="lcghm" />
                           <node concept="la8eA" id="2XJ9bmToqmN" role="lcghm">
@@ -3304,7 +3340,7 @@
                             </node>
                           </node>
                           <node concept="la8eA" id="2XJ9bmTpcvl" role="lcghm">
-                            <property role="lacIc" value="(@RequestParam " />
+                            <property role="lacIc" value="(@PathVariable " />
                           </node>
                           <node concept="la8eA" id="5HtekKoKAS$" role="lcghm">
                             <property role="lacIc" value="int" />
@@ -3385,7 +3421,7 @@
                       </node>
                     </node>
                   </node>
-                  <node concept="3y3z36" id="5oI350sHqZK" role="3clFbw">
+                  <node concept="3clFbC" id="3DyjGuSl4yf" role="3clFbw">
                     <node concept="2OqwBi" id="5oI350sHqub" role="3uHU7B">
                       <node concept="2GrUjf" id="5oI350sHqsE" role="2Oq$k0">
                         <ref role="2Gs0qQ" node="2XJ9bmTof04" resolve="dto" />
@@ -3394,8 +3430,8 @@
                         <ref role="3TsBF5" to="38xb:5DXP_PWNmZF" resolve="type" />
                       </node>
                     </node>
-                    <node concept="3cmrfG" id="5oI350sHqZx" role="3uHU7w">
-                      <property role="3cmrfH" value="2" />
+                    <node concept="3cmrfG" id="3DyjGuSl4MW" role="3uHU7w">
+                      <property role="3cmrfH" value="1" />
                     </node>
                   </node>
                 </node>
@@ -3746,7 +3782,7 @@
                   <node concept="l8MVK" id="4N472TnwaMf" role="lcghm" />
                 </node>
               </node>
-              <node concept="3y3z36" id="5oI350sH7W5" role="3clFbw">
+              <node concept="3clFbC" id="3DyjGuSlQ2s" role="3clFbw">
                 <node concept="2OqwBi" id="5oI350sH6Wz" role="3uHU7B">
                   <node concept="2GrUjf" id="5oI350sH6V3" role="2Oq$k0">
                     <ref role="2Gs0qQ" node="4N472Tnw8zo" resolve="dto" />
@@ -3755,8 +3791,8 @@
                     <ref role="3TsBF5" to="38xb:5DXP_PWNmZF" resolve="type" />
                   </node>
                 </node>
-                <node concept="3cmrfG" id="5oI350sH7Co" role="3uHU7w">
-                  <property role="3cmrfH" value="2" />
+                <node concept="3cmrfG" id="3DyjGuSlQ3k" role="3uHU7w">
+                  <property role="3cmrfH" value="1" />
                 </node>
               </node>
             </node>
@@ -4784,7 +4820,7 @@
                       <node concept="l8MVK" id="4N472TnvZ_B" role="lcghm" />
                     </node>
                   </node>
-                  <node concept="3y3z36" id="5oI350sHbtR" role="3clFbw">
+                  <node concept="3clFbC" id="3DyjGuSlPJp" role="3clFbw">
                     <node concept="2OqwBi" id="5oI350sHa69" role="3uHU7B">
                       <node concept="2GrUjf" id="5oI350sHa4D" role="2Oq$k0">
                         <ref role="2Gs0qQ" node="4N472TnvOs6" resolve="dto" />
@@ -4793,8 +4829,8 @@
                         <ref role="3TsBF5" to="38xb:5DXP_PWNmZF" resolve="type" />
                       </node>
                     </node>
-                    <node concept="3cmrfG" id="5oI350sHb2Q" role="3uHU7w">
-                      <property role="3cmrfH" value="2" />
+                    <node concept="3cmrfG" id="3DyjGuSlQ1N" role="3uHU7w">
+                      <property role="3cmrfH" value="1" />
                     </node>
                   </node>
                 </node>

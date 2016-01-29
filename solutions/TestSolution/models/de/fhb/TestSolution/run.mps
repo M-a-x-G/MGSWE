@@ -20,6 +20,12 @@
         <property id="2567912773591920176" name="description" index="3fwm4Z" />
         <property id="2567912773591920206" name="baseName" index="3fwm51" />
         <property id="2567912773591920243" name="version" index="3fwm5W" />
+        <child id="2567912773592282003" name="dependencies" index="3fxfMs" />
+      </concept>
+      <concept id="2567912773592281895" name="de.fhb.RESTGen.structure.Dependency" flags="ng" index="3fxfKC">
+        <property id="2567912773592747423" name="version" index="3fz0ag" />
+        <property id="2567912773592747416" name="artifactID" index="3fz0an" />
+        <property id="2567912773592747411" name="groupID" index="3fz0as" />
       </concept>
       <concept id="2567912773592745833" name="de.fhb.RESTGen.structure.Script" flags="ng" index="3fz0xA">
         <child id="2567912773592745953" name="settings" index="3fz0zI" />
@@ -43,6 +49,17 @@
       <node concept="PMKKe" id="5HtekKoK3m5" role="3f$Wh2">
         <property role="PMKNJ" value="statusCode" />
         <property role="1BCovq" value="int" />
+      </node>
+    </node>
+    <node concept="3f$Wmt" id="5vowH3wyf30" role="3f$ZKt">
+      <property role="AGbAQ" value="3" />
+      <property role="2jj2gL" value="Activity" />
+      <node concept="PMKKe" id="5vowH3wyf31" role="3f$Wh2">
+        <property role="1BCovq" value="double" />
+        <property role="PMKNJ" value="time" />
+      </node>
+      <node concept="PMKKe" id="5vowH3wyf3f" role="3f$Wh2">
+        <property role="PMKNJ" value="name" />
       </node>
     </node>
     <node concept="3f$Wmt" id="5HtekKoK3lw" role="3f$ZKt">
@@ -77,6 +94,11 @@
       <property role="10B9XN" value="resttest" />
       <property role="3fwm5W" value="1.0" />
       <property role="3fwm51" value="root" />
+      <node concept="3fxfKC" id="5vowH3wxcUu" role="3fxfMs">
+        <property role="3fz0as" value="com.google.guava" />
+        <property role="3fz0an" value="guava" />
+        <property role="3fz0ag" value="19.0" />
+      </node>
     </node>
   </node>
 </model>
