@@ -17,6 +17,7 @@
       <concept id="2567912773591873980" name="de.fhb.RESTGen.structure.BuildSettings" flags="ng" index="3fwFqN">
         <property id="3873210820990924732" name="groupID" index="10B9W4" />
         <property id="3873210820990924747" name="artifactID" index="10B9XN" />
+        <property id="2567912773591920187" name="packaging" index="3fwm4O" />
         <property id="2567912773591920176" name="description" index="3fwm4Z" />
         <property id="2567912773591920206" name="baseName" index="3fwm51" />
         <property id="2567912773591920243" name="version" index="3fwm5W" />
@@ -94,6 +95,7 @@
       <property role="10B9XN" value="resttest" />
       <property role="3fwm5W" value="1.0" />
       <property role="3fwm51" value="root" />
+      <property role="3fwm4O" value="jar" />
       <node concept="3fxfKC" id="5vowH3wxcUu" role="3fxfMs">
         <property role="3fz0as" value="com.google.guava" />
         <property role="3fz0an" value="guava" />

@@ -433,7 +433,7 @@
             </node>
           </node>
           <node concept="la8eA" id="4BgGGcIqBBx" role="lcghm">
-            <property role="lacIc" value="." />
+            <property role="lacIc" value=":" />
           </node>
           <node concept="l9hG8" id="4BgGGcIqBEJ" role="lcghm">
             <node concept="2OqwBi" id="4BgGGcIqBIo" role="lb14g">
